@@ -116,7 +116,8 @@ export const rsDubey = {
   kicker: { hi: "जमानी के निर्माता", en: "A Builder of Jamani" },
   name: { hi: "श्री आर. एस. दुबे", en: "R. S. Dubey" },
   /** Full name — editable, to be supplied by the family. */
-  fullName: null as Bilingual | null,
+  /** As inscribed on his memorial (रवि स्तम्भ) in Jamani. */
+  fullName: { hi: "पं. रविशंकर दुबे", en: "Pt. Ravishankar Dubey" } as Bilingual | null,
   /** Supplied by the Dubey family (ISO yyyy-mm-dd). */
   birthDate: "1923-09-24" as string | null,
   deathDate: "1994-03-08" as string | null,
@@ -162,6 +163,22 @@ export const rsDubey = {
     editorialNotes: "A memory of R. S. Dubey, shared by the family or villagers, with attribution.",
   } satisfies QuoteRecord,
   portrait: null as { id: string; alt: Bilingual } | null,
+  /** Memorial in Jamani — shown in his section, not as a portrait. */
+  memorial: {
+    imageId: "rs-dubey-memorial",
+    title: { hi: "रवि स्तम्भ — जमानी में स्मारक", en: "Ravi Stambh — his memorial in Jamani" },
+    caption: {
+      hi: "जमानी में पं. रविशंकर दुबे की स्मृति में बना ‘रवि स्तम्भ’, गेंदे की मालाओं से सजा हुआ।",
+      en: "The ‘Ravi Stambh’, a memorial to Pt. Ravishankar Dubey in Jamani, garlanded with marigolds.",
+    },
+    alt: {
+      hi: "गेंदे की मालाओं से सजा सफ़ेद, सीढ़ीदार स्मारक-स्तंभ; सामने लगी पट्टिका पर पं. रविशंकर दुबे का नाम और जन्म-तिथि लिखी है; पीछे पेड़ और खपरैल की छत।",
+      en: "A white, stepped memorial pillar decorated with marigold garlands; a plaque on the front bears the name of Pt. Ravishankar Dubey and his dates; trees and a tiled roof behind.",
+    },
+    /** Plaque text as legible in the photograph. */
+    /** Legible plaque text only (line 2 and the first word of the last line are not legible in the photo). */
+    inscription: ["रवि स्तम्भ", "पं. रविशंकर दुबे", "जन्म- 24 सितंबर 1923", "8 मार्च 1994"],
+  },
   meta: {
     sourceType: "family-archive",
     sourceName: "Dubey family",
@@ -169,7 +186,7 @@ export const rsDubey = {
     verificationStatus: "family-archive",
     imageRights: "permission-pending",
     editorialNotes:
-      "Needed from family: full name, 3 contribution milestones (title, year, impact), a remembrance quote, a portrait with permission.",
+      "Full name taken from the memorial plaque — confirm spelling (Ravishankar / Ravi Shankar). Plaque line 2 and the side plaque are not legible in the photo. Needed from family: 3 contribution milestones (title, year, impact), a remembrance quote, a portrait with permission.",
   } satisfies SourceMeta,
 };
 

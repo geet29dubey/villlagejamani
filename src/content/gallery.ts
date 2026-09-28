@@ -378,4 +378,40 @@ export const gallery: GalleryPhoto[] = [
     ...archiveSource,
     editorialNotes: "Identify the people (names only with family consent), the house and the year.",
   },
+  {
+    id: "mary-ellen-patterson-dubey-family",
+    imageId: "mary-ellen-patterson-dubey-family",
+    categories: ["people", "historical-archive"],
+    caption: {
+      hi: "IFYE प्रतिनिधि मैरी एलेन पैटरसन (दाएँ), साड़ी पहने, दुबे परिवार की एक सदस्य के साथ।",
+      en: "IFYE delegate Mary Ellen Patterson (right), wearing a sari, with a member of the Dubey family.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: सिर पर पल्लू लिए एक भारतीय महिला और साड़ी पहने एक युवा अमेरिकी महिला साथ खड़ी मुस्कुरा रही हैं।",
+      en: "Black-and-white photograph: an Indian woman with her head covered and a young American woman wearing a sari stand side by side, smiling.",
+    },
+    ...archiveSource,
+    peoplePictured: {
+      hi: "मैरी एलेन पैटरसन (दाएँ); दुबे परिवार की सदस्य (बाएँ — नाम की पहचान जारी)",
+      en: "Mary Ellen Patterson (right); a member of the Dubey family (left — name being identified)",
+    },
+    editorialNotes:
+      "Identification supplied by the family. Name the woman on the left only with consent. Year of visit not yet confirmed (see IFYE cards).",
+  },
+  {
+    id: "rs-dubey-with-shield",
+    imageId: "rs-dubey-with-shield",
+    categories: ["people", "historical-archive"],
+    caption: {
+      hi: "आर. एस. दुबे, एक शील्ड-ट्रॉफ़ी के पास बैठे हुए।",
+      en: "R. S. Dubey seated beside a shield trophy.",
+    },
+    alt: {
+      hi: "पुराना श्वेत-श्याम चित्र: सफ़ेद कमीज़ पहने एक व्यक्ति कुर्सी पर बैठे हैं; बगल की कुर्सी पर कई छोटी पट्टियों वाली बड़ी शील्ड रखी है; पीछे लकड़ी की बाड़ और एक इमारत।",
+      en: "Old black-and-white photograph: a man in a white shirt sits on a chair; on the chair beside him rests a large shield trophy with many small plaques; a wooden fence and a building behind.",
+    },
+    ...archiveSource,
+    peoplePictured: { hi: "आर. एस. दुबे", en: "R. S. Dubey" },
+    editorialNotes: "What was the shield awarded for, where and when? Ask the family.",
+  },
 ];

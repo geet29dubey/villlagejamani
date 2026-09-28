@@ -78,6 +78,24 @@ export function RsDubeyProfile({ locale }: { locale: Locale }) {
           <p className="tribute__context">{rsDubey.ifyeTribute.context[locale]}</p>
         </figure>
         <p>{rsDubey.culturalRole[locale]}</p>
+        {rsDubey.memorial ? (
+          <figure className="memorial">
+            <div className="memorial__img media-frame">
+              <ArchiveImage
+                id={rsDubey.memorial.imageId}
+                alt={rsDubey.memorial.alt[locale]}
+                sizes="(min-width: 900px) 220px, 40vw"
+              />
+            </div>
+            <figcaption>
+              <strong>{rsDubey.memorial.title[locale]}</strong>
+              <span>{rsDubey.memorial.caption[locale]}</span>
+              <span className="memorial__inscription" lang="hi">
+                {rsDubey.memorial.inscription.join(" · ")}
+              </span>
+            </figcaption>
+          </figure>
+        ) : null}
         <VerificationBadge status={rsDubey.meta.verificationStatus} locale={locale} />
 
         <h4 className="profile__milestones-title">{hi ? "योगदान" : "Contributions"}</h4>

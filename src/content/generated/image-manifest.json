@@ -294,6 +294,44 @@
       }
     ]
   },
+  "mary-ellen-patterson-dubey-family": {
+    "width": 925,
+    "height": 1095,
+    "original": "assets/archive/originals/mary-ellen-patterson-dubey-family.jpg",
+    "sourceMtime": 1790616389899,
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoQABMAPu1iqU2ppaOiMAgBMB2JZwDCgBZucLu7l0nL2ncAAP5xIqgFcSPdddN32iMW6EkOQ1h5dogmwkTXCSHr8X58VxyiJ380FXiGNRq7qKWhb73UoAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/mary-ellen-patterson-dubey-family-480.webp"
+      },
+      {
+        "width": 925,
+        "src": "/images/mary-ellen-patterson-dubey-family-925.webp"
+      }
+    ]
+  },
+  "rs-dubey-with-shield": {
+    "width": 1083,
+    "height": 1050,
+    "original": "assets/archive/originals/rs-dubey-with-shield.jpg",
+    "sourceMtime": 1790616389901,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQABAAA4BaJYwCdAEO5dgzmUhMsAD+8cdDOoMtGVYVVbrH/2wLQVD9EQKyJT2wUVhWd519cyhDDe/qZcIsjQHVEQ7NyfIifQRjdpEFoBgAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/rs-dubey-with-shield-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/rs-dubey-with-shield-960.webp"
+      },
+      {
+        "width": 1083,
+        "src": "/images/rs-dubey-with-shield-1083.webp"
+      }
+    ]
+  },
   "village-bullock-cart": {
     "width": 1221,
     "height": 919,
@@ -518,6 +556,23 @@
       {
         "width": 383,
         "src": "/images/parsai-portrait-383.webp"
+      }
+    ]
+  },
+  "rs-dubey-memorial": {
+    "width": 742,
+    "height": 1073,
+    "original": "assets/photos/rs-dubey-memorial.jpg",
+    "sourceMtime": 1790616389896,
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoQABcAPu1iqU2ppaOiMAgBMB2JZACsABjMvmXOzSJcuk4kAAD+y8f+Itb671BtK1mLisfkH21NORshCNlxJ7FgyFgt1Xu+ylEMWVo6qR3vh0ikWr77SVe8jspxLQQ8hGeuNHhktCPcm26ER96M+IZh0cWTIQxZkG2EYeYja1Tr8IihSBGzsUkwZ851GDNumsYAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/rs-dubey-memorial-480.webp"
+      },
+      {
+        "width": 742,
+        "src": "/images/rs-dubey-memorial-742.webp"
       }
     ]
   }

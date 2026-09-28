@@ -94,10 +94,15 @@ export const parsai = {
       en: "Black-and-white portrait of Harishankar Parsai — grey hair swept back, a thoughtful gaze",
     },
   } as { id: string; alt: Bilingual } | null,
-  /** Supplied by the project team; original source and rights holder still to be recorded. */
+  /** Source of the portrait as used on this site. */
+  portraitCredit: {
+    label: { hi: "चित्र: द एशियन एज", en: "Image: The Asian Age" },
+    url: "https://www.asianage.com/life/more-features/290619/in-pursuit-of-parsai.html",
+  } as { label: Bilingual; url: string } | null,
+  /** Newspaper image: publication permission from The Asian Age (or the photographer) still to be obtained. */
   portraitRights: "permission-pending" as ImageRights,
   editorialNotes:
-    "Portrait supplied by the project team (assets/source/parsai-portrait-original.png, caption cropped). Record the original source/photographer and confirm the right to publish; add a credit line. Confirm whether a birthplace marker or memorial exists in Jamani.",
+    "Portrait taken from The Asian Age article 'In pursuit of Parsai' (asianage.com). Newspaper images are copyrighted: obtain written permission from The Asian Age / the photographer, or replace with a licensed image, before launch. Confirm whether a birthplace marker or memorial exists in Jamani.",
 };
 
 export interface Milestone {

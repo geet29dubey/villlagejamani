@@ -12,20 +12,29 @@ export function ParsaiProfile({ locale }: { locale: Locale }) {
       id={parsai.id}
       aria-labelledby={`${parsai.id}-name`}
     >
-      <div className="profile__portrait arch arch--rani">
-        {parsai.portrait ? (
-          <ArchiveImage
-            id={parsai.portrait.id}
-            alt={parsai.portrait.alt[locale]}
-            sizes="(min-width: 900px) 30vw, 90vw"
-          />
-        ) : (
-          <PhotoSlot
-            locale={locale}
-            withPermission
-            need="Portrait of Harishankar Parsai from a lawful source / rights holder"
-          />
-        )}
+      <div className="profile__portrait-wrap">
+        <div className="profile__portrait arch arch--rani">
+          {parsai.portrait ? (
+            <ArchiveImage
+              id={parsai.portrait.id}
+              alt={parsai.portrait.alt[locale]}
+              sizes="(min-width: 900px) 30vw, 90vw"
+            />
+          ) : (
+            <PhotoSlot
+              locale={locale}
+              withPermission
+              need="Portrait of Harishankar Parsai from a lawful source / rights holder"
+            />
+          )}
+        </div>
+        {parsai.portrait && parsai.portraitCredit ? (
+          <p className="portrait-credit">
+            <a href={parsai.portraitCredit.url} target="_blank" rel="noopener noreferrer">
+              {parsai.portraitCredit.label[locale]}
+            </a>
+          </p>
+        ) : null}
       </div>
       <div className="profile__body">
         <span className="eyebrow">{parsai.kicker[locale]}</span>

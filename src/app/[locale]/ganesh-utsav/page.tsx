@@ -57,7 +57,9 @@ export default async function GaneshUtsavPage({ params }: { params: Promise<{ lo
   const hi = locale === "hi";
   const f = siteConfig.festival;
   const event = festivalEventJsonLd(locale);
-  const archivePhotos = gallery.filter((g) => g.categories.includes("classical-music"));
+  const archivePhotos = gallery.filter(
+    (g) => g.categories.includes("classical-music") || g.categories.includes("kathak"),
+  );
   const categories = Object.entries(galleryCategories);
   const hasProgramme = programme.some((d) => d.items.length);
 
@@ -214,11 +216,11 @@ export default async function GaneshUtsavPage({ params }: { params: Promise<{ lo
           <SectionHeading
             id="photos-title"
             eyebrow={hi ? "पुराने चित्र" : "Historic photographs"}
-            title={hi ? "संगीत की पुरानी बैठकें" : "Music gatherings from the archive"}
+            title={hi ? "संगीत और कथक की स्मृतियाँ" : "Music and Kathak from the archive"}
             lede={
               hi
-                ? "पारिवारिक अभिलेख के ये चित्र संगीत बैठकों के हैं; स्थान, वर्ष और कलाकारों की पहचान जारी है।"
-                : "These family-archive photographs show music gatherings; the places, years and performers are still being identified."
+                ? "पारिवारिक अभिलेख के ये चित्र संगीत बैठकों और कथक प्रस्तुतियों के हैं; स्थान, वर्ष और कलाकारों की पहचान जारी है।"
+                : "These family-archive photographs show music gatherings and Kathak performances; the places, years and performers are still being identified."
             }
           />
           <GalleryGrid

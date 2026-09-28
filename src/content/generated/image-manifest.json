@@ -103,5 +103,90 @@
         "src": "/images/archive-stage-street-backdrop-1078.webp"
       }
     ]
+  },
+  "kathak-dancer-red-costume": {
+    "width": 840,
+    "height": 1237,
+    "original": "assets/archive/originals/kathak-dancer-red-costume.jpg",
+    "sourceMtime": 1790608604713,
+    "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoQABcAPu1iqU2ppaOiMAgBMB2JYgCdMoR3ACrPMUTfqgpWraAA+6Qeye6TwD7FkKNgdHgp2RSnw9Bd+2z4apmej9Djmx+Y3K7wFZbxcVkjopQOEyVRPdOjCDhxt1kSK5TwgtwWghh22YEhY+aPQmLEKAMWqC5suLA599Yr25lKwAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/kathak-dancer-red-costume-480.webp"
+      },
+      {
+        "width": 840,
+        "src": "/images/kathak-dancer-red-costume-840.webp"
+      }
+    ]
+  },
+  "kathak-dancer-spin-bw": {
+    "width": 373,
+    "height": 558,
+    "original": "assets/archive/originals/kathak-dancer-spin-bw.jpg",
+    "sourceMtime": 1790608604708,
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZwAAVNs6vVaL0SJLYAAA/qYImKcA3Xjs85p/N9sKoYYSDpBX4xGEKLC62o9/Mog+l5YU1jHi9fXD2Bsrkz7RfNU3qk6jtmLKhm47XCkXgWfP8Gk4FXNhSzjBdkawyOCUqbOgMQQY5uK5WkE4ZjsgIs/+vA2QAAA=",
+    "variants": [
+      {
+        "width": 373,
+        "src": "/images/kathak-dancer-spin-bw-373.webp"
+      }
+    ]
+  },
+  "kathak-dancer-with-musicians": {
+    "width": 1223,
+    "height": 835,
+    "original": "assets/archive/originals/kathak-dancer-with-musicians.jpg",
+    "sourceMtime": 1790608604715,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsAA4BaJZgCdACkmTu9tQAA/r9omd0Y8MPIIO/7J0iroux4lcVBdQyi2X6Rx7DPn1xc2RFHdmsGB0AAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/kathak-dancer-with-musicians-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/kathak-dancer-with-musicians-960.webp"
+      },
+      {
+        "width": 1223,
+        "src": "/images/kathak-dancer-with-musicians-1223.webp"
+      }
+    ]
+  },
+  "kathak-duet-pranam": {
+    "width": 960,
+    "height": 1280,
+    "original": "assets/archive/originals/kathak-duet-pranam.jpg",
+    "sourceMtime": 1790608604712,
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoAC278qIxNKIZZLG11sAAD+Tnq+iJOx7rnNUo1c5sVQ8bWQyrKFxGDPGLMFaWmm8PsC5/iMwViFwA0iw2NP0zuJ8Neo2Jpb4HAMdAEEpcZmk0LtRJWCjSvjfWEAg7D9eTWWCIJ5hZY5nO15Vttqf36bPPrOYOhwRC4KqNhdVWPzSAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/kathak-duet-pranam-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/kathak-duet-pranam-960.webp"
+      }
+    ]
+  },
+  "kathak-performer-microphone": {
+    "width": 960,
+    "height": 1280,
+    "original": "assets/archive/originals/kathak-performer-microphone.jpg",
+    "sourceMtime": 1790608604710,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JaACdMoABF7E5z23tDgAA/tge9AXbgJ2Tq1tMQ3nKeqXCm3bZOaGQ50+/VlSjVk7WUp9GJioMnV4tLVbhcnh82JV0xMFZELZsikZC9bgq8WGw06Yfpd4AGjWS+T7750lx8J14Kh5SIydiQX4VNopTgAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/kathak-performer-microphone-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/kathak-performer-microphone-960.webp"
+      }
+    ]
   }
 }

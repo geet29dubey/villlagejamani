@@ -138,4 +138,82 @@ export const gallery: GalleryPhoto[] = [
     editorialNotes:
       "Text is transcribed exactly as painted (without the anusvara). Confirm whether this is Jamani's Panchayat Bhawan, the year and the people pictured (possibly connected with the 1964 visit? — do NOT state without confirmation).",
   },
+  {
+    id: "kathak-dancer-spin-bw",
+    imageId: "kathak-dancer-spin-bw",
+    categories: ["kathak", "historical-archive"],
+    caption: {
+      hi: "चक्कर लेती हुई कथक नृत्यांगना — घूमता घेरदार परिधान, हाथ में दुपट्टा और पैरों में घुँघरू; पीछे संगतकार।",
+      en: "A Kathak dancer mid-spin — a flaring skirt, a veil held aloft and ghungroo at the ankles, with accompanists behind.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: मंच पर एक कथक नृत्यांगना चक्कर ले रही है, उसका घेरदार परिधान फैला हुआ है और हाथ में उठा दुपट्टा है; पृष्ठभूमि में बैठे संगतकार।",
+      en: "Black-and-white photograph: a Kathak dancer spins on stage, her flared skirt and a raised veil swirling around her, with seated accompanists in the background.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify the dancer, occasion and year; confirm consent to publish.",
+  },
+  {
+    id: "kathak-dancer-red-costume",
+    imageId: "kathak-dancer-red-costume",
+    categories: ["kathak", "historical-archive"],
+    caption: {
+      hi: "लाल चौखानेदार परिधान में कथक नृत्यांगना, माइक्रोफ़ोन के सामने; पीछे बैठे श्रोता और ऊपर चित्रों की पंक्ति।",
+      en: "A Kathak dancer in a red checked costume before a microphone, with seated listeners behind and a row of framed pictures above.",
+    },
+    alt: {
+      hi: "पुराना रंगीन चित्र: लाल-सुनहरे चौखानेदार परिधान में नृत्यांगना कथक मुद्रा में; सामने माइक्रोफ़ोन, अग्रभूमि में दर्शक, पीछे मेहराबदार आला और दीवार पर चित्र।",
+      en: "Faded colour photograph: a dancer in a red and gold checked costume holds a Kathak pose; a microphone in front, spectators in the foreground, an arched niche and framed pictures on the wall behind.",
+    },
+    ...archiveSource,
+    editorialNotes:
+      "Identify the dancer and year. The wall niche and row of framed pictures resemble other archive photos — confirm the venue before stating it.",
+  },
+  {
+    id: "kathak-dancer-with-musicians",
+    imageId: "kathak-dancer-with-musicians",
+    categories: ["kathak", "classical-music", "historical-archive"],
+    caption: {
+      hi: "संगतकारों के साथ बैठी कथक नृत्यांगना — पखावज, हारमोनियम और तबला; पीछे सरस्वती के चित्र के सामने भरी हुई सभा।",
+      en: "A Kathak dancer seated with her accompanists — pakhawaj, harmonium and tabla — before a packed audience and a painting of Saraswati.",
+    },
+    alt: {
+      hi: "पुराना रंगीन चित्र: लाल परिधान में नृत्यांगना मंच पर बैठी है; बाईं ओर पखावज वादक, बीच में हारमोनियम, दाईं ओर तबला वादक; पीछे बच्चों और बड़ों की भीड़ और सरस्वती का चित्र।",
+      en: "Faded colour photograph: a dancer in red sits on stage; a pakhawaj player to the left, a harmonium at the centre, a tabla player to the right; behind them a crowd of children and adults and a painting of Saraswati.",
+    },
+    ...archiveSource,
+    editorialNotes:
+      "Identify dancer, musicians and year. Saraswati backdrop resembles 'stage-saraswati-backdrop' — confirm if this is the same stage in Jamani.",
+  },
+  {
+    id: "kathak-performer-microphone",
+    imageId: "kathak-performer-microphone",
+    categories: ["kathak"],
+    caption: {
+      hi: "माइक्रोफ़ोन पर प्रस्तुति देती कथक कलाकार, लाल और सुनहरे परिधान में; ऊपर रंग-बिरंगी झालरें।",
+      en: "A Kathak artist speaking or reciting at the microphone in red and gold, beneath strings of coloured tinsel.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: माँग-टीका और लाल-सुनहरे परिधान में एक कलाकार माइक्रोफ़ोन के सामने खड़ी है; छत पर रंगीन झालरें और तेज़ रोशनी, पीछे सफ़ेद दीवार पर मेहराबदार आला।",
+      en: "Colour photograph: an artist in a red and gold costume with a maang tikka stands at a microphone; coloured tinsel and bright lights across the ceiling, a white wall with an arched niche behind.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify the artist and year; confirm consent to publish.",
+  },
+  {
+    id: "kathak-duet-pranam",
+    imageId: "kathak-duet-pranam",
+    categories: ["kathak"],
+    caption: {
+      hi: "प्रणाम की मुद्रा में दो कथक नृत्यांगनाएँ — सिर के ऊपर जुड़े हाथ, गहरे परिधान और लाल दुपट्टे।",
+      en: "Two Kathak dancers in pranam — hands joined above their heads, in dark costumes with red dupattas.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: दो नृत्यांगनाएँ बैठी मुद्रा में सिर के ऊपर हाथ जोड़े हुए हैं; गहरे रंग के परिधान और लाल दुपट्टे; बीच में माइक्रोफ़ोन स्टैंड, पीछे सफ़ेद दीवार में मेहराबदार आले और नीली बीम।",
+      en: "Colour photograph: two dancers kneel with hands joined above their heads, in dark costumes with red dupattas; a microphone stand between them, a white wall with arched niches and blue beams behind.",
+    },
+    ...archiveSource,
+    editorialNotes:
+      "Identify the dancers and year; confirm consent. This appears to be a photograph of a screen — request the original file if available.",
+  },
 ];

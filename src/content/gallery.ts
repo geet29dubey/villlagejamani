@@ -439,14 +439,15 @@ export const gallery: GalleryPhoto[] = [
     imageId: "winnowing-grain-rooftop",
     categories: ["agriculture", "village-life"],
     caption: {
-      hi: "छत पर अनाज फटकती तीन महिलाएँ — एक लकड़ी के पटरे से हवा कर रही है, दूसरी अनाज से भरा तसला लिए है; पास में तिरपाल पर अनाज का ढेर।",
-      en: "Three women winnowing grain on a rooftop — one fanning with a wooden board, another holding a basin of grain, with a heap of grain on a tarpaulin nearby.",
+      hi: "छत पर गेहूँ फटकती तीन महिलाएँ — एक लकड़ी के पटरे से हवा कर रही है, दूसरी गेहूँ से भरा तसला लिए है; पास में तिरपाल पर गेहूँ का ढेर।",
+      en: "Three women winnowing wheat on a rooftop — one fanning with a wooden board, another holding a basin of wheat, with a heap of wheat on a tarpaulin nearby.",
     },
     alt: {
-      hi: "श्वेत-श्याम चित्र: सफ़ेद मुंडेर वाली छत पर तीन महिलाएँ; बाईं ओर एक युवती लकड़ी का पटरा पकड़े, दाईं ओर साड़ी पहने महिला अनाज से भरा बड़ा तसला थामे; ज़मीन पर बिखरा अनाज और तिरपाल पर ढेर; पीछे पेड़।",
-      en: "Black-and-white photograph: three women on a rooftop with a white parapet; on the left a young woman holds a wooden board, on the right a woman in a sari holds a large basin of grain; grain spread on the floor and heaped on a tarpaulin; trees behind.",
+      hi: "श्वेत-श्याम चित्र: सफ़ेद मुंडेर वाली छत पर तीन महिलाएँ; बाईं ओर एक युवती लकड़ी का पटरा पकड़े, दाईं ओर साड़ी पहने महिला गेहूँ से भरा बड़ा तसला थामे; ज़मीन पर बिखरा गेहूँ और तिरपाल पर ढेर; पीछे पेड़।",
+      en: "Black-and-white photograph: three women on a rooftop with a white parapet; on the left a young woman holds a wooden board, on the right a woman in a sari holds a large basin of wheat; wheat spread on the floor and heaped on a tarpaulin; trees behind.",
     },
     ...recentSource,
-    editorialNotes: "Which grain (wheat?) and where — confirm. Name the women only with consent.",
+    editorialNotes:
+      "Grain confirmed by the family as wheat. Location to confirm. Name the women only with consent.",
   },
 ];

@@ -54,6 +54,13 @@ const archiveSource = {
   },
 };
 
+/** Recent photographs supplied for this project (not historical scans). */
+const recentSource = {
+  ...archiveSource,
+  sourceName: "Supplied by the Dubey family",
+  editorialNotes: undefined,
+};
+
 /**
  * Archival photographs supplied for this project. Captions describe only what is visible —
  * dates, places, occasions and people are left for the family to identify.
@@ -292,5 +299,83 @@ export const gallery: GalleryPhoto[] = [
     },
     ...archiveSource,
     editorialNotes: "Identify place, year and person (name only with consent).",
+  },
+  {
+    id: "orchard-mango-rows",
+    imageId: "orchard-mango-rows",
+    categories: ["orchards"],
+    caption: {
+      hi: "आम के बाग़ में पेड़ों की कतारें — चूने से पुते तने और पत्तियों से ढकी ज़मीन।",
+      en: "Rows of mango trees in an orchard — whitewashed trunks and a floor of fallen leaves.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: फैली हुई डालियों वाले आम के पेड़ों की कतारें, तनों के निचले हिस्से सफ़ेद पुते हुए; नीचे सूखी पत्तियों से ढकी लाल-भूरी ज़मीन।",
+      en: "Colour photograph: rows of spreading mango trees with the lower trunks painted white, above reddish-brown ground covered in dry leaves.",
+    },
+    ...recentSource,
+    editorialNotes:
+      "Confirm this is a Jamani orchard, whose orchard it is (with consent) and the year.",
+  },
+  {
+    id: "orchard-beside-green-field",
+    imageId: "orchard-beside-green-field",
+    categories: ["orchards", "agriculture"],
+    caption: {
+      hi: "हरे-भरे खेत के पार घने आम के पेड़ों का बाग़।",
+      en: "A dense mango orchard beyond a lush green field.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: आगे चमकीली हरी फ़सल या घास से भरा खेत; पीछे घने, गोल छत्र वाले आम के पेड़ों की कतार, जिनके तने सफ़ेद पुते हैं।",
+      en: "Colour photograph: a bright green field in the foreground; behind it a line of dense, round-crowned mango trees with whitewashed trunks.",
+    },
+    ...recentSource,
+    editorialNotes: "Confirm location, the crop in the foreground and the year.",
+  },
+  {
+    id: "field-ploughed-man-seated",
+    imageId: "field-ploughed-man-seated",
+    categories: ["agriculture", "village-life"],
+    caption: {
+      hi: "जुते हुए खेत में बैठे एक व्यक्ति, पास में धुआँ और एक टोकरी; आगे एक नन्हा पौधा।",
+      en: "A man seated in a freshly ploughed field beside curling smoke and a basket, with a young sapling in the foreground.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: धूप में जुता हुआ भूरा खेत; सफ़ेद कपड़ों में एक व्यक्ति ज़मीन पर बैठे हैं, पास से धुआँ उठ रहा है और एक टोकरी रखी है; किनारे पर पेड़ों की कतार और आगे एक छोटा पौधा।",
+      en: "Colour photograph: a sunlit, freshly ploughed brown field; a man in white sits on the ground with smoke rising beside him and a basket nearby; a line of trees along the edge and a small sapling in front.",
+    },
+    ...recentSource,
+    editorialNotes:
+      "What is happening here (a puja before sowing? clearing stubble?) — ask the family before describing it. Name only with consent.",
+  },
+  {
+    id: "field-young-crop-hut",
+    imageId: "field-young-crop-hut",
+    categories: ["agriculture"],
+    caption: {
+      hi: "नई उगी फ़सल वाला खेत और किनारे पर घास-फूस की छप्पर वाली झोपड़ी।",
+      en: "A field of young green crop with a thatched field hut at its edge.",
+    },
+    alt: {
+      hi: "रंगीन चित्र: आगे नई हरी फ़सल की कतारें; पीछे लकड़ी के खंभों पर टिकी सूखी घास की छत वाली झोपड़ी, एक मोटरसाइकिल और धुंध में बाँस के झुरमुट।",
+      en: "Colour photograph: rows of young green crop in the foreground; behind, a hut with a dry-grass roof on wooden posts, a motorcycle and misty bamboo clumps.",
+    },
+    ...recentSource,
+    editorialNotes:
+      "Which crop is this (wheat? gram?) and which season — confirm before naming it.",
+  },
+  {
+    id: "village-churning-madhani",
+    imageId: "village-churning-madhani",
+    categories: ["village-life", "people", "historical-archive"],
+    caption: {
+      hi: "रस्सी वाली मथानी से मटके में मथती एक बुज़ुर्ग महिला, उनसे लिपटी एक छोटी बच्ची।",
+      en: "An elderly woman churning with a rope-drawn wooden churn (madhani) in a large pot, a little girl holding on to her.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: सिर ढके एक बुज़ुर्ग महिला खंभे से बँधी लकड़ी की मथानी की रस्सी खींच रही हैं; नीचे बड़ा मटका; उनसे एक छोटी बच्ची लिपटी है और पीछे एक और महिला खड़ी है; पृष्ठभूमि में घर की दीवार, दरवाज़ा और खिड़की।",
+      en: "Black-and-white photograph: an elderly woman with a covered head pulls the rope of a wooden churn fixed to a post above a large pot; a little girl clings to her side and another woman stands behind; a house wall, door and window in the background.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify the people (names only with family consent), the house and the year.",
   },
 ];

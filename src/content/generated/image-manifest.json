@@ -210,6 +210,27 @@
       }
     ]
   },
+  "village-churning-madhani": {
+    "width": 1030,
+    "height": 1280,
+    "original": "assets/archive/originals/village-churning-madhani.jpg",
+    "sourceMtime": 1790610141843,
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZwC2zagd7eOxljReYfSYIADTCjF68PfMda76is/rMHtVN6gpKiNhYDyVn9VSv26KUzhEC462CHaP06VemqbDHDoEoEbvFqu2WOfC4GNORyowdfTBmHkjtmBhP7AA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-churning-madhani-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-churning-madhani-960.webp"
+      },
+      {
+        "width": 1030,
+        "src": "/images/village-churning-madhani-1030.webp"
+      }
+    ]
+  },
   "village-field-silhouettes": {
     "width": 1179,
     "height": 848,
@@ -291,6 +312,94 @@
       {
         "width": 1268,
         "src": "/images/village-women-water-pot-1268.webp"
+      }
+    ]
+  },
+  "field-ploughed-man-seated": {
+    "width": 1280,
+    "height": 960,
+    "original": "assets/photos/field-ploughed-man-seated.jpg",
+    "sourceMtime": 1790610141836,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAwAA4BaJZACdAEff2exKVx4AP7Hg8u0aa8gaVt69Vt2E3lO2cmWSr1D5JB3gQ/i2ZJvrKvMtwMvekAVnQjMFj+OqwuCA/husot8/pNaFa2gN0lBwKZDfmgAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/field-ploughed-man-seated-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/field-ploughed-man-seated-960.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/field-ploughed-man-seated-1280.webp"
+      }
+    ]
+  },
+  "field-young-crop-hut": {
+    "width": 1280,
+    "height": 960,
+    "original": "assets/photos/field-young-crop-hut.jpg",
+    "sourceMtime": 1790610141841,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAwAA4BaJbACdAEQbEpV0AAA+6LlnBpiu2jtzo06ezGIbNOwNOwXCi2FWvB2wCAUWgKf5ZdrzGwGzWRxjwghGdM0NndwAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/field-young-crop-hut-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/field-young-crop-hut-960.webp"
+      },
+      {
+        "width": 1280,
+        "src": "/images/field-young-crop-hut-1280.webp"
+      }
+    ]
+  },
+  "orchard-beside-green-field": {
+    "width": 2000,
+    "height": 1500,
+    "original": "assets/photos/orchard-beside-green-field.jpg",
+    "sourceMtime": 1790610141833,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAwAA4BaJagCdAEOttqoAP7obj9btXZur2CdM2JLzMRT38aH8vz9+vILBm/Io/QE2D9Y8gOf1obbwnWAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/orchard-beside-green-field-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/orchard-beside-green-field-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/orchard-beside-green-field-1600.webp"
+      },
+      {
+        "width": 2000,
+        "src": "/images/orchard-beside-green-field-2000.webp"
+      }
+    ]
+  },
+  "orchard-mango-rows": {
+    "width": 1500,
+    "height": 1125,
+    "original": "assets/photos/orchard-mango-rows.jpg",
+    "sourceMtime": 1790610141831,
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwAA4BaJQAB8UYR12qtAAAA/ulExJFAUHLX7So9B4BNl4dSd9TLoh1ibZJcuXvBE1cx58V6BX4SwvbLzTZgtiV7dVlfdGLJqRb1Ok5oxnM3fvnZggAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/orchard-mango-rows-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/orchard-mango-rows-960.webp"
+      },
+      {
+        "width": 1500,
+        "src": "/images/orchard-mango-rows-1500.webp"
       }
     ]
   }

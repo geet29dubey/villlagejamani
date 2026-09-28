@@ -63,6 +63,22 @@ export function IfyeSection({ locale }: { locale: Locale }) {
                     </li>
                   ))}
                 </ul>
+                <div className="further-reading">
+                  <h4>{hi ? "आगे पढ़ें" : "Further reading"}</h4>
+                  <ul>
+                    {rayRoppBio.furtherReading.map((r) => (
+                      <li key={r.url}>
+                        <a href={r.url} target="_blank" rel="noopener noreferrer">
+                          {r.label[locale]}
+                          <span className="visually-hidden">
+                            {" "}
+                            ({hi ? "नई विंडो में" : "opens in a new tab"})
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
                 {withheld && !siteConfig.editorialMode ? (
                   <p className="pending">
                     {hi

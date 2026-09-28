@@ -246,9 +246,31 @@ export interface BioItem {
  * until a source is recorded. Do not add "legendary", award details, exact service
  * duration or current positions without verification.
  */
-export const rayRoppBio: { name: string; hometown: string; items: BioItem[] } = {
+export const rayRoppBio: {
+  name: string;
+  hometown: string;
+  items: BioItem[];
+  /** External references supplied by the project team. */
+  furtherReading: { label: Bilingual; url: string }[];
+} = {
   name: "Ray Ropp",
   hometown: "Normal, Illinois",
+  furtherReading: [
+    {
+      label: {
+        hi: "इलिनॉय 4-H: क्लेरेंस और मेबल रॉप परिवार — 4-H फ़ैमिली स्पिरिट अवॉर्ड, 2003",
+        en: "Illinois 4-H: Clarence & Mabel Ropp Family — 4-H Family Spirit Award, 2003",
+      },
+      url: "https://4h.extension.illinois.edu/awards/4-h-family-spirit/2003/clarence-mabel-ropp-family",
+    },
+    {
+      label: {
+        hi: "IFYE News, ग्रीष्म 2010 — IFYE एसोसिएशन ऑफ़ द USA",
+        en: "IFYE News, Summer 2010 — IFYE Association of the USA",
+      },
+      url: "https://ifyeusa.org/file_download/inline/1dfa3e4e-09e6-427c-a09c-e9195638fa18",
+    },
+  ],
   items: [
     {
       text: {

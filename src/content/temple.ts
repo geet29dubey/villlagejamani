@@ -30,7 +30,15 @@ export const temple = {
       "A family memory connected with the temple, recorded verbatim with attribution.",
   } satisfies QuoteRecord,
   /** Photographs of the temple (ids in the image manifest). */
-  photos: [] as { id: string; alt: Bilingual }[],
+  photos: [
+    {
+      id: "ram-janaki-temple-shikhara",
+      alt: {
+        hi: "श्वेत-श्याम चित्र: राम–जानकी मंदिर का सफ़ेद पुता शिखर, ऊपर कलश, नीचे मेहराबदार द्वार; पीछे पेड़, खपरैल की छतें और दूर पहाड़ियाँ।",
+        en: "Black-and-white photograph: the whitewashed shikhara of the Ram–Janaki temple with a finial on top and an arched doorway below; trees, tiled roofs and distant hills behind.",
+      },
+    },
+  ] as { id: string; alt: Bilingual }[],
   /** Future independent historical citation. */
   citation: null as string | null,
   meta: {

@@ -580,6 +580,27 @@
       }
     ]
   },
+  "ram-janaki-temple-shikhara": {
+    "width": 1600,
+    "height": 1200,
+    "original": "assets/photos/ram-janaki-temple-shikhara.jpg",
+    "sourceMtime": 1790619603058,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAwAA4BaJaQAAuc/el8gAP7fTeZvvhS/Dlg/Ylu9rF2tFtcJh3tJcZZAk9s77Q2HfeQJTRf0mPkPWq4nOj48loHzG3z4YTQHISaAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ram-janaki-temple-shikhara-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ram-janaki-temple-shikhara-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/ram-janaki-temple-shikhara-1600.webp"
+      }
+    ]
+  },
   "rs-dubey-memorial": {
     "width": 742,
     "height": 1073,
@@ -594,6 +615,27 @@
       {
         "width": 742,
         "src": "/images/rs-dubey-memorial-742.webp"
+      }
+    ]
+  },
+  "winnowing-grain-rooftop": {
+    "width": 1600,
+    "height": 1200,
+    "original": "assets/photos/winnowing-grain-rooftop.jpg",
+    "sourceMtime": 1790619603060,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAwAA4BaJaQAD43umgFZY/CAAP7vZny4mZpeY+J3u7N2eOmFbf/WLPNX/sxzMSLGXllFNCVAArbC+PgImMfu6R6Yptj+9UVHlh8l1ax0p1edWRVvwq8OoAAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/winnowing-grain-rooftop-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/winnowing-grain-rooftop-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/winnowing-grain-rooftop-1600.webp"
       }
     ]
   }

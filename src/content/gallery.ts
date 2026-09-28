@@ -383,8 +383,8 @@ export const gallery: GalleryPhoto[] = [
     imageId: "mary-ellen-patterson-dubey-family",
     categories: ["people", "historical-archive"],
     caption: {
-      hi: "IFYE प्रतिनिधि मैरी एलेन पैटरसन (दाएँ), साड़ी पहने, दुबे परिवार की एक सदस्य के साथ।",
-      en: "IFYE delegate Mary Ellen Patterson (right), wearing a sari, with a member of the Dubey family.",
+      hi: "IFYE प्रतिनिधि मैरी एलेन पैटरसन (दाएँ), साड़ी पहने, आर. एस. दुबे की पत्नी विमला दुबे (बाएँ) के साथ।",
+      en: "IFYE delegate Mary Ellen Patterson (right), wearing a sari, with Vimla Dubey (left), wife of R. S. Dubey.",
     },
     alt: {
       hi: "श्वेत-श्याम चित्र: सिर पर पल्लू लिए एक भारतीय महिला और साड़ी पहने एक युवा अमेरिकी महिला साथ खड़ी मुस्कुरा रही हैं।",
@@ -392,11 +392,11 @@ export const gallery: GalleryPhoto[] = [
     },
     ...archiveSource,
     peoplePictured: {
-      hi: "मैरी एलेन पैटरसन (दाएँ); दुबे परिवार की सदस्य (बाएँ — नाम की पहचान जारी)",
-      en: "Mary Ellen Patterson (right); a member of the Dubey family (left — name being identified)",
+      hi: "विमला दुबे, आर. एस. दुबे की पत्नी (बाएँ); मैरी एलेन पैटरसन (दाएँ)",
+      en: "Vimla Dubey, wife of R. S. Dubey (left); Mary Ellen Patterson (right)",
     },
     editorialNotes:
-      "Identification supplied by the family. Name the woman on the left only with consent. Year of visit not yet confirmed (see IFYE cards).",
+      "Identification supplied by the family. Year of visit not yet confirmed (see IFYE cards).",
   },
   {
     id: "rs-dubey-with-shield",

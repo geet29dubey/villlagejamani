@@ -60,7 +60,7 @@ export function ParsaiProfile({ locale }: { locale: Locale }) {
                         {w.title.hi}
                         {locale === "en" ? <span lang="en"> · {w.title.en}</span> : null}
                       </cite>
-                      {w.year ? <span className="work__year">{w.year}</span> : null}
+                      {w.year ? <span className="work__year">{w.year[locale]}</span> : null}
                     </summary>
                     <p className="work__desc">{w.description[locale]}</p>
                   </details>

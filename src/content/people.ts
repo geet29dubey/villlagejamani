@@ -46,7 +46,7 @@ export const parsai = {
   notableWorks: [
     {
       title: { hi: "विकलांग श्रद्धा का दौर", en: "Viklang Shraddha Ka Daur" },
-      year: "1982 Sahitya Akademi Award",
+      year: { hi: "1982 साहित्य अकादमी पुरस्कार", en: "1982 Sahitya Akademi Award" },
       description: {
         hi: "व्यंग्य निबंधों का प्रमुख संग्रह, जिसे 1982 में प्रतिष्ठित साहित्य अकादमी पुरस्कार मिला; सार्वजनिक जीवन के अवसरवाद और नैतिक पतन पर प्रहार।",
         en: "A premier satirical essay collection that won the prestigious Sahitya Akademi Award in 1982, targeting opportunism and moral decay in public life.",
@@ -84,13 +84,20 @@ export const parsai = {
         en: "A scathing critique of post-independence Indian democracy and hollow political promises.",
       },
     },
-  ] as { title: Bilingual; year: string | null; description: Bilingual }[],
+  ] as { title: Bilingual; year: Bilingual | null; description: Bilingual }[],
   /** Birthplace or memorial in Jamani — only if confirmed. */
   birthplaceNote: null as Bilingual | null,
-  portrait: null as { id: string; alt: Bilingual } | null,
-  portraitRights: "unknown" as ImageRights,
+  portrait: {
+    id: "parsai-portrait",
+    alt: {
+      hi: "हरिशंकर परसाई का श्वेत-श्याम चित्र — सफ़ेद बाल, चिंतनशील दृष्टि",
+      en: "Black-and-white portrait of Harishankar Parsai — grey hair swept back, a thoughtful gaze",
+    },
+  } as { id: string; alt: Bilingual } | null,
+  /** Supplied by the project team; original source and rights holder still to be recorded. */
+  portraitRights: "permission-pending" as ImageRights,
   editorialNotes:
-    "No portrait until a lawful source/permission is secured (rights holder). Confirm whether a birthplace marker or memorial exists in Jamani.",
+    "Portrait supplied by the project team (assets/source/parsai-portrait-original.png, caption cropped). Record the original source/photographer and confirm the right to publish; add a credit line. Confirm whether a birthplace marker or memorial exists in Jamani.",
 };
 
 export interface Milestone {

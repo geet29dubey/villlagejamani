@@ -507,5 +507,18 @@
         "src": "/images/orchard-mango-rows-1500.webp"
       }
     ]
+  },
+  "parsai-portrait": {
+    "width": 383,
+    "height": 490,
+    "original": "assets/photos/parsai-portrait.png",
+    "sourceMtime": 1790615254914,
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JaQAAUwyNd1VZspQ7SKo1AAD+pfLm07JXsHYF9SWRX4FvTkz3aL4zvPie2C+Eous7CIa5CjbHFywn1ZBNImLyewokUoD2iGztp3Dbbjtyn5GivHlLH8cJ5zssckzImhk6b4oAAAA=",
+    "variants": [
+      {
+        "width": 383,
+        "src": "/images/parsai-portrait-383.webp"
+      }
+    ]
   }
 }

@@ -69,6 +69,14 @@ export function RsDubeyProfile({ locale }: { locale: Locale }) {
         <p>{rsDubey.contribution[locale]}</p>
         {rsDubey.familyWords ? <p>{rsDubey.familyWords[locale]}</p> : null}
         <p>{rsDubey.ifyeRole[locale]}</p>
+        <figure className="tribute">
+          <blockquote lang="en">“{rsDubey.ifyeTribute.quote}”</blockquote>
+          <figcaption>
+            {rsDubey.ifyeTribute.attribution[locale]}{" "}
+            <a href="#jamani-and-the-world">{hi ? "(कार्ड देखें)" : "(see the card)"}</a>
+          </figcaption>
+          <p className="tribute__context">{rsDubey.ifyeTribute.context[locale]}</p>
+        </figure>
         <p>{rsDubey.culturalRole[locale]}</p>
         <VerificationBadge status={rsDubey.meta.verificationStatus} locale={locale} />
 

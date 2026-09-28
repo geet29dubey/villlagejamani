@@ -1075,3 +1075,61 @@
 .profile__dates dd {
   margin: 0;
 }
+
+.tribute {
+  margin: 8px 0 18px;
+  padding: 16px 18px;
+  border-left: 4px solid var(--mor);
+  background: var(--chuna);
+  border-radius: 0 14px 14px 0;
+}
+.tribute blockquote {
+  margin: 0;
+  font-family: var(--font-quote);
+  font-size: var(--step-1);
+  line-height: 1.5;
+  color: var(--raat-neel);
+}
+.tribute figcaption {
+  margin-top: 6px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.tribute__context {
+  margin: 8px 0 0;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+}
+.works-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: grid;
+  gap: 12px;
+}
+.work {
+  padding: 12px 14px;
+  border: 1.5px solid rgba(30, 20, 32, 0.25);
+  border-left: 4px solid var(--rani);
+  border-radius: 10px;
+  background: var(--chuna);
+}
+.work__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: var(--raat-neel);
+}
+.work__year {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--genda);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+.work__desc {
+  margin: 4px 0 0;
+  font-size: 0.9375rem;
+}

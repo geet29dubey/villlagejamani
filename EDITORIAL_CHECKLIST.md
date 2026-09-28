@@ -13,8 +13,7 @@ on the production domain.
 
 - [ ] **Gram Panchayat wording**: the site is described as "an independent cultural
       and community project". Do not call it "official" without written authorisation.
-- [ ] **IFYE cards**: scans added and legible text transcribed. Confirm with the family who Ray Ropp's
-      card was addressed to, Mary Ellen Patterson's visit year, who M. P. Dubey (Dotty Smith's 'guardian', 1966 letter) was, the uncertain names in that letter, and whether the
+- [ ] **IFYE cards**: scans added and legible text transcribed. Confirm with the family Mary Ellen Patterson's visit year, who M. P. Dubey (Dotty Smith's 'guardian', 1966 letter) was, the uncertain names in that letter, and whether the
       "1967 Delegate to India" card is the front of Mary Ellen Patterson's card.
 - [ ] **Written permission from the Dubey family** to publish the five archive
       photographs and the IFYE scans (`imageRights` is currently `family-permission-granted`;
@@ -36,7 +35,6 @@ on the production domain.
 | Temple architecture, photographs, family memory                       | `temple.ts`                                                | Description, photos with permission, a quoted memory                     |
 | R. S. Dubey: three contribution milestones (title, year, impact)      | `people.ts`                                                | Family, in their own words                                               |
 | R. S. Dubey: remembrance quotation and portrait                       | `people.ts`                                                | Family, with attribution and permission                                  |
-| Parsai: notable works list                                            | `people.ts` → `notableWorks`                               | Only with verified citations                                             |
 | Parsai: birthplace marker or memorial in Jamani                       | `people.ts` → `birthplaceNote`                             | Only if one exists                                                       |
 | Parsai portrait                                                       | `people.ts` → `portrait`                                   | A lawful source or the rights holder's permission                        |
 | Pandit Samta Prasad ("Gudai Maharaj"): confirm intended identity      | `artists.ts`                                               | Family                                                                   |

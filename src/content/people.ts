@@ -31,20 +31,76 @@ export const parsai = {
     {
       label: { hi: "साहित्य अकादमी", en: "Sahitya Akademi" },
       value: {
-        hi: "साहित्य अकादमी पुरस्कार से सम्मानित",
-        en: "Recognised with the Sahitya Akademi Award",
+        hi: "1982 में ‘विकलांग श्रद्धा का दौर’ के लिए साहित्य अकादमी पुरस्कार",
+        en: "Sahitya Akademi Award, 1982, for ‘Viklang Shraddha Ka Daur’",
       },
       sourceType: "published-source",
       sourceName: "Sahitya Akademi awards list",
-      sourceDate: null,
+      sourceDate: "1982",
       verificationStatus: "verified-published",
       imageRights: "not-applicable",
-      editorialNotes:
-        "Brand book mock-up cites 1982 for 'Viklang Shraddha Ka Daur'. Confirm year and title against Sahitya Akademi's official list before adding them.",
+      editorialNotes: "Add a link to Sahitya Akademi's awards list on the Sources page.",
     },
   ] satisfies Fact[],
-  /** Notable works — add only with a verified source. */
-  notableWorks: [] as { title: Bilingual; year: string | null; source: string }[],
+  /** Notable works (supplied by the project team). */
+  notableWorks: [
+    {
+      title: { hi: "विकलांग श्रद्धा का दौर", en: "Viklang Shraddha Ka Daur" },
+      year: "1982 Sahitya Akademi Award",
+      description: {
+        hi: "व्यंग्य निबंधों का प्रमुख संग्रह, जिसे 1982 में प्रतिष्ठित साहित्य अकादमी पुरस्कार मिला; सार्वजनिक जीवन के अवसरवाद और नैतिक पतन पर प्रहार।",
+        en: "A premier satirical essay collection that won the prestigious Sahitya Akademi Award in 1982, targeting opportunism and moral decay in public life.",
+      },
+    },
+    {
+      title: { hi: "निठल्ले की डायरी", en: "Nithalle Ki Diary" },
+      year: null,
+      description: {
+        hi: "चुटीले व्यंग्यों का लोकप्रिय संग्रह, जो एक निठल्ले पर्यवेक्षक की नज़र से समाज के आलसी, पाखंडी और भ्रष्ट वर्गों का मज़ाक उड़ाता है।",
+        en: "A popular collection of witty satires that mock the idle, hypocritical and corrupt segments of society through the lens of a lazy observer.",
+      },
+    },
+    {
+      title: { hi: "प्रेमचंद के फटे जूते", en: "Premchand Ke Phate Joote" },
+      year: null,
+      description: {
+        hi: "बहुपठित व्यंग्य निबंध (अक्सर स्कूली पाठ्यक्रम में शामिल), जो महान हिंदी उपन्यासकार मुंशी प्रेमचंद के माध्यम से ईमानदारी और भौतिक सफलता के बीच के गहरे अंतर को परखता है।",
+        en: "A widely read satirical essay, often included in school curricula, examining the stark contrast between integrity and material success through the iconic Hindi novelist Munshi Premchand.",
+      },
+    },
+    {
+      title: { hi: "भेड़ और भेड़िए", en: "Bhed Aur Bhediye" },
+      year: null,
+      description: {
+        hi: "एक सशक्त रूपक-कथा, जो दिखाती है कि राजनीतिक व्यवस्थाएँ किस तरह भोले-भाले लोगों को बहकाती और उनका शोषण करती हैं।",
+        en: "A brilliant allegorical tale exposing how political systems manipulate and exploit the innocent.",
+      },
+    },
+    {
+      title: { hi: "सदाचार का तावीज़", en: "Sadachar Ka Taweez" },
+      year: null,
+      description: {
+        hi: "एक क्लासिक लघु व्यंग्य कि प्रशासनिक भ्रष्टाचार किस तरह नैतिकता और आदर्शों को भी अपना हथियार बनाने की कोशिश करता है।",
+        en: "A classic short satire about how administrative corruption attempts to weaponise even morality and ethics.",
+      },
+    },
+    {
+      title: { hi: "अपनी अपनी बीमारी", en: "Apni Apni Bimari" },
+      year: null,
+      description: {
+        hi: "मध्यवर्गीय दिखावे, जीवन-संघर्ष और सामाजिक हैसियत पर हास्यपूर्ण पर गहरी दृष्टि।",
+        en: "A humorous yet profound look at middle-class pretensions, survival struggles and social status.",
+      },
+    },
+    {
+      title: { hi: "ठिठुरता हुआ गणतंत्र", en: "Thithurta Hua Gantantra" },
+      year: null,
+      description: {
+        hi: "स्वतंत्रता के बाद के भारतीय लोकतंत्र और खोखले राजनीतिक वादों की तीखी आलोचना।",
+        en: "A scathing critique of post-independence Indian democracy and hollow political promises.",
+      },
+    },
+  ] as { title: Bilingual; year: string | null; description: Bilingual }[],
   /** Birthplace or memorial in Jamani — only if confirmed. */
   birthplaceNote: null as Bilingual | null,
   portrait: null as { id: string; alt: Bilingual } | null,
@@ -77,6 +133,18 @@ export const rsDubey = {
   ifyeRole: {
     hi: "दुबे परिवार के इतिहास के अनुसार, 1964 में अंतरराष्ट्रीय कृषि युवा आदान-प्रदान के अतिथि आर. एस. दुबे के परिवार के साथ ठहरे थे।",
     en: "According to Dubey family history, visitors from the 1964 International Farm Youth Exchange stayed with the family of R. S. Dubey.",
+  },
+  /** Ray Ropp's words about him, from the IFYE holiday card (recipient identified by the family). */
+  ifyeTribute: {
+    quote: "You were the hardest working man that I met in India.",
+    attribution: {
+      hi: "— रे रॉप, 1964 IFYE प्रतिनिधि, आर. एस. दुबे को लिखे अवकाश-कार्ड में",
+      en: "— Ray Ropp, 1964 IFYE delegate, in a holiday card to R. S. Dubey",
+    },
+    context: {
+      hi: "उसी कार्ड में उन्होंने युवा क्लबों के साथ उनके काम के बारे में पूछा और आशा जताई कि “और लोग आपके उत्तम उदाहरण का अनुसरण करेंगे”।",
+      en: "In the same card he asked how “your work with youth clubs” was progressing and hoped “more people will follow your fine example.”",
+    },
   },
   culturalRole: {
     hi: "वे परिवार की सांस्कृतिक और सामुदायिक परंपराओं — जिनमें गणेश उत्सव भी शामिल है — से जुड़े रहे।",

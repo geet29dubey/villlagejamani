@@ -52,8 +52,8 @@ export const ifyeDocuments: ArchiveDocument[] = [
     featured: true,
     title: { hi: "रे रॉप — 1964 भारत प्रतिनिधि", en: "Ray Ropp — 1964 Delegate to India" },
     caption: {
-      hi: "अवकाश-शुभकामना कार्ड, जिस पर रे रॉप का IFYE प्रतिनिधि-कार्ड चिपका है। हस्तलिखित संदेश में वे “जमानी के मेरे मित्रों” का हाल पूछते हैं।",
-      en: "A holiday greeting card with Ray Ropp's IFYE delegate card attached. In his handwritten message he asks after “my friends of Jamani”.",
+      hi: "आर. एस. दुबे को भेजा गया अवकाश-शुभकामना कार्ड, जिस पर रे रॉप का IFYE प्रतिनिधि-कार्ड चिपका है। वे “जमानी के मेरे मित्रों” का हाल पूछते हैं और आर. एस. दुबे के बारे में लिखते हैं: “You were the hardest working man that I met in India.”",
+      en: "A holiday greeting card to R. S. Dubey with Ray Ropp's IFYE delegate card attached. He asks after “my friends of Jamani” and tells R. S. Dubey: “You were the hardest working man that I met in India.”",
     },
     alt: {
       hi: "पुराना अवकाश-कार्ड: ऊपर बाईं ओर रे रॉप की फ़ोटो वाला IFYE कार्ड ('1964 Delegate to India', 'Normal, Illinois'), नीचे नीली स्याही में हस्तलिखित संदेश, दाईं ओर लाल अक्षरों में छपी शुभकामना और हस्ताक्षर।",
@@ -89,7 +89,7 @@ export const ifyeDocuments: ArchiveDocument[] = [
     verificationStatus: "family-archive",
     imageRights: "family-permission-granted",
     editorialNotes:
-      "The card does not name the recipient. Ask the family whom it was addressed to (R. S. Dubey?) before saying so publicly. The year the card was sent is not written on it.",
+      "Recipient identified by the family as R. S. Dubey. The year the card was sent is not written on it.",
   },
   {
     id: "ifye-dotty-smith-letter-p1",
@@ -260,8 +260,8 @@ export const rayRoppBio: { name: string; hometown: string; items: BioItem[] } = 
     },
     {
       text: {
-        hi: "अपने अवकाश-कार्ड पर उन्होंने “जमानी के मेरे मित्रों” का हाल पूछा, युवा क्लबों के काम के बारे में जानना चाहा, और लिखा: “You were the hardest working man that I met in India.”",
-        en: "On his holiday card he asked after “my friends of Jamani” and their “work with youth clubs”, and wrote: “You were the hardest working man that I met in India.”",
+        hi: "आर. एस. दुबे को भेजे अवकाश-कार्ड में उन्होंने “जमानी के मेरे मित्रों” का हाल पूछा, युवा क्लबों के उनके काम के बारे में जानना चाहा, और लिखा: “You were the hardest working man that I met in India.”",
+        en: "In his holiday card to R. S. Dubey he asked after “my friends of Jamani” and R. S. Dubey's “work with youth clubs”, and wrote: “You were the hardest working man that I met in India.”",
       },
       requiresSource: false,
       source: "Dubey Family Archive (holiday card)",

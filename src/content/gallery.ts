@@ -216,4 +216,81 @@ export const gallery: GalleryPhoto[] = [
     editorialNotes:
       "Identify the dancers and year; confirm consent. This appears to be a photograph of a screen — request the original file if available.",
   },
+  {
+    id: "village-women-water-pot",
+    imageId: "village-women-water-pot",
+    categories: ["village-life", "historical-archive"],
+    caption: {
+      hi: "खेत के किनारे कच्चे रास्ते पर चलती दो महिलाएँ — एक सिर पर धातु का घड़ा और गोद में बच्चा लिए, दूसरी सिर पर गठरी लिए।",
+      en: "Two women walking along a dirt path beside a field — one with a metal water pot on her head and a child on her hip, the other carrying a bundle on her head.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: कच्चे रास्ते पर दो महिलाएँ मुस्कुराती हुई चल रही हैं; आगे वाली सिर पर धातु का घड़ा थामे और एक बच्चे को गोद में लिए है; पीछे कटा हुआ खेत, सूखी टहनियाँ और पेड़।",
+      en: "Black-and-white photograph: two smiling women walk along a dirt path; the one in front steadies a metal pot on her head and carries a child; behind them a harvested field, dry branches and trees.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify place, year and people (names only with consent).",
+  },
+  {
+    id: "village-field-silhouettes",
+    imageId: "village-field-silhouettes",
+    categories: ["village-life", "agriculture", "historical-archive"],
+    caption: {
+      hi: "ढलते सूरज के सामने सिर पर बोझ लिए खेत पार करती तीन आकृतियाँ; पीछे चरते मवेशी।",
+      en: "Three figures carrying loads on their heads cross a field against the setting sun, with cattle grazing behind.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: बादलों भरे आकाश और डूबते सूरज के सामने तीन लोगों की परछाइयाँ, सिर पर टोकरियाँ या घड़े; कटे हुए खेत में दूर मवेशी।",
+      en: "Black-and-white photograph: three silhouetted people with baskets or pots on their heads walk across a stubble field beneath a cloudy sky at sunset; cattle in the distance.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify place and year.",
+  },
+  {
+    id: "village-folk-music-circle",
+    imageId: "village-folk-music-circle",
+    categories: ["village-life", "people", "historical-archive"],
+    caption: {
+      hi: "घेरे में बैठे गाँववासी — ढोलक बजाते एक व्यक्ति के साथ गीत-संगीत की बैठक।",
+      en: "Villagers seated in a circle for songs, with a man playing the dholak.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: सिर ढके महिलाएँ और दो पुरुष ज़मीन पर घेरा बनाकर बैठे हैं; एक पुरुष ढोलक बजा रहा है, पास में एक और छोटा वाद्य रखा है।",
+      en: "Black-and-white photograph: women with covered heads and two men sit on the ground in a circle; one man plays a dholak, and a second small drum rests nearby.",
+    },
+    ...archiveSource,
+    editorialNotes:
+      "Identify the occasion (folk song? festival?), place, year and people — names only with consent.",
+  },
+  {
+    id: "village-bullock-cart",
+    imageId: "village-bullock-cart",
+    categories: ["village-life", "historical-archive"],
+    caption: {
+      hi: "लंबे सींगों वाले दो सफ़ेद बैलों की छतरीदार बैलगाड़ी, काँटेदार बाड़ के पास।",
+      en: "A covered bullock cart drawn by two long-horned white bullocks, beside a thorn fence.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: धारीदार छतरी वाली बैलगाड़ी में दो सफ़ेद बैल जुते हैं; गाड़ी में टोपी पहने एक व्यक्ति; पीछे लकड़ियों और झाड़ियों की बाड़।",
+      en: "Black-and-white photograph: two white bullocks yoked to a cart with a striped hooded canopy; a man in a cap sits inside; a fence of sticks and shrubs behind.",
+    },
+    ...archiveSource,
+    editorialNotes:
+      "Identify place and year. Do NOT link to the family account of performers arriving by bullock cart unless the family confirms this photo shows that.",
+  },
+  {
+    id: "village-hand-mill",
+    imageId: "village-hand-mill",
+    categories: ["village-life", "agriculture", "historical-archive"],
+    caption: {
+      hi: "हाथ की चक्की से अनाज पीसती एक युवती; पास में अनाज का ढेर, सूपा और दीवार से टिके मूसल।",
+      en: "A young woman grinding grain on a hand mill, with a heap of grain, a tray and wooden pestles leaning against the wall.",
+    },
+    alt: {
+      hi: "श्वेत-श्याम चित्र: धारीदार ओढ़नी पहने युवती ज़मीन पर बैठकर मिट्टी से लिपी हाथ-चक्की का हत्था घुमा रही है; पीछे अनाज का ढेर, एक सूपा और दीवार के सहारे दो लकड़ी के मूसल।",
+      en: "Black-and-white photograph: a young woman in a striped head-cloth sits on the floor turning the handle of a mud-plastered hand mill; behind her a heap of grain, a tray and two wooden pestles against the wall.",
+    },
+    ...archiveSource,
+    editorialNotes: "Identify place, year and person (name only with consent).",
+  },
 ];

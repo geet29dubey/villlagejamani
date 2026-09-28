@@ -188,5 +188,110 @@
         "src": "/images/kathak-performer-microphone-960.webp"
       }
     ]
+  },
+  "village-bullock-cart": {
+    "width": 1221,
+    "height": 919,
+    "original": "assets/archive/originals/village-bullock-cart.jpg",
+    "sourceMtime": 1790609790653,
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAwAA4BaJZQAAvimqoAA/trStdAmj2Y6lBQnz21UHRbGWAkUnrwSmNr923mzW0bXmWTExwaXcY+bVzj9Iv/SzAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-bullock-cart-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-bullock-cart-960.webp"
+      },
+      {
+        "width": 1221,
+        "src": "/images/village-bullock-cart-1221.webp"
+      }
+    ]
+  },
+  "village-field-silhouettes": {
+    "width": 1179,
+    "height": 848,
+    "original": "assets/archive/originals/village-field-silhouettes.jpg",
+    "sourceMtime": 1790609790648,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAwAA4BaJZQAAj0FrsqXmAAA/vBK904OZcoACFHgjTfGr57amimZvJMQ1x1vGHKmTgo3LNjxhgKwFXpZgAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-field-silhouettes-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-field-silhouettes-960.webp"
+      },
+      {
+        "width": 1179,
+        "src": "/images/village-field-silhouettes-1179.webp"
+      }
+    ]
+  },
+  "village-folk-music-circle": {
+    "width": 1259,
+    "height": 716,
+    "original": "assets/archive/originals/village-folk-music-circle.jpg",
+    "sourceMtime": 1790609790651,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAkAA4BaJZwAD4Ww696ZWVP+AAD+aLj5z+/dYOcRYjmvg4zMHpn/zLZrJvoxn1J4Qh2/dkHiIgDe/nKrA3Rp8r1Zk0qePILKUaPcVHu5kAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-folk-music-circle-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-folk-music-circle-960.webp"
+      },
+      {
+        "width": 1259,
+        "src": "/images/village-folk-music-circle-1259.webp"
+      }
+    ]
+  },
+  "village-hand-mill": {
+    "width": 1201,
+    "height": 1006,
+    "original": "assets/archive/originals/village-hand-mill.jpg",
+    "sourceMtime": 1790609790655,
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAA0AA4BaJZQAD5JpR8RCAAD+7eGFFhbTliKQ0N3o0iTxPsJ1eXDeGv921laHMtY4/RATlgR5zy4npmlsvgGETDpUeoOkVxuw/MKfqLRLJAdIEjAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-hand-mill-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-hand-mill-960.webp"
+      },
+      {
+        "width": 1201,
+        "src": "/images/village-hand-mill-1201.webp"
+      }
+    ]
+  },
+  "village-women-water-pot": {
+    "width": 1268,
+    "height": 967,
+    "original": "assets/archive/originals/village-women-water-pot.jpg",
+    "sourceMtime": 1790609790646,
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwAA4BaJZQAAltgtEz7AAD4M/ucGpupTODc/aO44Snt7VfW5EPh0ldntxDThW+YI7d4LggZ5z7FA27m3+0EuNNq2m4plrP+KVofpIrwtNxFAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/village-women-water-pot-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/village-women-water-pot-960.webp"
+      },
+      {
+        "width": 1268,
+        "src": "/images/village-women-water-pot-1268.webp"
+      }
+    ]
   }
 }

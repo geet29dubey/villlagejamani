@@ -1,0 +1,4 @@
+# Cloudflare Pages configuration — the site is a static export in ./out
+name = "villagejamani"
+pages_build_output_dir = "out"
+compatibility_date = "2025-09-01"

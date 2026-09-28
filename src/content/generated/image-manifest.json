@@ -1,0 +1,107 @@
+{
+  "archive-gram-panchayat-bhawan": {
+    "width": 1543,
+    "height": 961,
+    "original": "assets/archive/originals/archive-gram-panchayat-bhawan.jpg",
+    "sourceMtime": 1790604151712,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAoAA4BaJZQC7ADw7AiReLJwANy2XwftvFri+bk8WzG7/Nb2WMSYwtQAglLhX4fTKYSNRmnmuQV02Tr8XA+iZlmVqhs+kAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/archive-gram-panchayat-bhawan-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/archive-gram-panchayat-bhawan-960.webp"
+      },
+      {
+        "width": 1543,
+        "src": "/images/archive-gram-panchayat-bhawan-1543.webp"
+      }
+    ]
+  },
+  "archive-music-gathering-room": {
+    "width": 1136,
+    "height": 737,
+    "original": "assets/archive/originals/archive-music-gathering-room.jpg",
+    "sourceMtime": 1790604151688,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAoAA4BaJZQAAl0Jkr5HoAD85F0vcGLcefp1wrM9GRbhQ/RKEAM7PqpRZ1hMlrv904LwtvYW+sxHKXSA3lSTjpvKLqJXRbxoPbAGqY9dkAAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/archive-music-gathering-room-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/archive-music-gathering-room-960.webp"
+      },
+      {
+        "width": 1136,
+        "src": "/images/archive-music-gathering-room-1136.webp"
+      }
+    ]
+  },
+  "archive-stage-microphones": {
+    "width": 1077,
+    "height": 667,
+    "original": "assets/archive/originals/archive-stage-microphones.jpg",
+    "sourceMtime": 1790604151700,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAoAA4BaJYwCdADOeJfycgAA+p7aAe0zUFhm+c0oxAbGe0K1gBnbGTggbDRGj9DLAVNUVyh2pObkYEzItfBDcsFK2j+KIZF1Y0AA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/archive-stage-microphones-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/archive-stage-microphones-960.webp"
+      },
+      {
+        "width": 1077,
+        "src": "/images/archive-stage-microphones-1077.webp"
+      }
+    ]
+  },
+  "archive-stage-saraswati-backdrop": {
+    "width": 1083,
+    "height": 620,
+    "original": "assets/archive/originals/archive-stage-saraswati-backdrop.jpg",
+    "sourceMtime": 1790604151704,
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAkAA4BaJYwCdAD1bRfzhfwAAPkxLhG0J3pzz25spOaHgf6DklBbI6//JhFS/B6XKunCZynLvoAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/archive-stage-saraswati-backdrop-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/archive-stage-saraswati-backdrop-960.webp"
+      },
+      {
+        "width": 1083,
+        "src": "/images/archive-stage-saraswati-backdrop-1083.webp"
+      }
+    ]
+  },
+  "archive-stage-street-backdrop": {
+    "width": 1078,
+    "height": 674,
+    "original": "assets/archive/originals/archive-stage-street-backdrop.jpg",
+    "sourceMtime": 1790604151698,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAoAA4BaJZwAAu1MSG3x7/vAAP6CutL7WKRJsvsMebPSXAfOc9e/sbseYYwY6NjEkMF/EsPJUY07qOHD46jc4wQhIELZMDwAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/archive-stage-street-backdrop-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/archive-stage-street-backdrop-960.webp"
+      },
+      {
+        "width": 1078,
+        "src": "/images/archive-stage-street-backdrop-1078.webp"
+      }
+    ]
+  }
+}

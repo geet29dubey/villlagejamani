@@ -1,0 +1,63 @@
+/* Jamani brand tokens — Brand Board 02 "Dot & Colour" primary, Board 01 "Line & Earth" selective. */
+:root {
+  --chuna: #fff6e8;
+  --sand: #f4e4c8;
+  --sand-deep: #ead3ac;
+  --raat-neel: #1a2359;
+  --raat-neel-2: #232e6e;
+  --rani: #ad1457;
+  --genda: #f9a825;
+  --mor: #00796b;
+  --hara: #2e7d32;
+  --kajal: #1e1420;
+  --geru: #a6432b;
+  --white: #ffffff;
+
+  --text: var(--kajal);
+  --text-muted: #4a3b44; /* 9.4:1 on chuna */
+  --bg: var(--chuna);
+
+  --font-display: var(--font-yatra), "Yatra One", "Mukta", system-ui, sans-serif;
+  --font-body: var(--font-mukta), "Mukta", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-quote: var(--font-tiro), "Tiro Devanagari Hindi", Georgia, serif;
+
+  --radius-card: 22px 18px 24px 16px / 18px 24px 16px 22px;
+  --radius-soft: 16px 12px 18px 14px / 14px 18px 12px 16px;
+  --shadow-offset: 5px 5px 0 var(--kajal);
+  --shadow-offset-sm: 3px 3px 0 var(--kajal);
+  --outline: 2px solid var(--kajal);
+
+  --gutter: 16px;
+  --container: 1200px;
+  --header-h: 64px;
+
+  --step--1: 0.9375rem;
+  --step-0: 1.0625rem; /* 17px body */
+  --step-1: clamp(1.2rem, 1.1rem + 0.4vw, 1.375rem);
+  --step-2: clamp(1.45rem, 1.25rem + 0.9vw, 1.9rem);
+  --step-3: clamp(1.8rem, 1.4rem + 1.8vw, 2.75rem);
+  --step-4: clamp(2.4rem, 1.7rem + 3.4vw, 4.25rem);
+  --step-5: clamp(3rem, 2rem + 5vw, 6rem);
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+    --header-h: 72px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  :root {
+    --header-h: 124px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --gutter: 40px;
+    --header-h: 84px;
+  }
+}

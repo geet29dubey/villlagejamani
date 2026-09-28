@@ -1,0 +1,1054 @@
+/* ───────────── Colour helpers inside coloured cards ───────────── */
+.card--rani a:not(.btn),
+.card--indigo a:not(.btn),
+.card--mor a:not(.btn),
+.card--hara a:not(.btn),
+.card--geru a:not(.btn),
+.section--kajal a:not(.btn),
+.section--geru a:not(.btn) {
+  color: var(--genda);
+}
+.card--genda a:not(.btn) {
+  color: var(--kajal);
+}
+
+/* ───────────── Home hero ───────────── */
+.hero {
+  background-color: var(--chuna);
+  padding-bottom: clamp(32px, 6vw, 72px);
+}
+.hero__grid {
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  padding-top: clamp(16px, 4vw, 48px);
+}
+@media (min-width: 900px) {
+  .hero__grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 40px;
+  }
+}
+.hero__pill {
+  margin-bottom: 14px;
+  transform: rotate(-1.5deg);
+}
+.hero__title {
+  font-size: clamp(3.4rem, 2rem + 8vw, 7.5rem);
+  line-height: 1.12;
+  color: var(--rani);
+  text-shadow: 4px 4px 0 var(--genda);
+  margin-bottom: 0.1em;
+}
+.hero__title-alt {
+  font-size: 0.45em;
+  color: var(--raat-neel);
+  text-shadow: none;
+}
+.hero__tagline {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  line-height: 1.35;
+  color: var(--raat-neel);
+  margin-bottom: 0.4em;
+}
+.hero__welcome {
+  font-family: var(--font-quote);
+  font-size: var(--step-1);
+  color: var(--kajal);
+  margin-bottom: 0.6em;
+}
+.hero__welcome-en {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+.hero__body {
+  font-size: var(--step-1);
+  line-height: 1.55;
+  max-width: 34em;
+  margin-bottom: 0;
+}
+.hero__art {
+  position: relative;
+  justify-self: center;
+  width: min(100%, 520px);
+}
+.hero__sun {
+  width: 100%;
+  height: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero__sun {
+    animation: sun-in 900ms var(--ease) both;
+  }
+  @keyframes sun-in {
+    from {
+      opacity: 0;
+      transform: scale(0.94) rotate(-6deg);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+.hero__badge {
+  position: absolute;
+  left: 2%;
+  bottom: 4%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  width: 34%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--raat-neel);
+  color: var(--chuna);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 5px 5px 0 rgba(30, 20, 32, 0.35);
+  padding: 8px;
+  transform: rotate(-8deg);
+}
+.hero__badge:hover {
+  color: var(--white);
+}
+.hero__badge-title {
+  font-family: var(--font-display);
+  color: var(--genda);
+  font-size: clamp(1.05rem, 0.8rem + 1.2vw, 1.6rem);
+  line-height: 1.25;
+}
+.hero__badge-date {
+  font-size: clamp(0.72rem, 0.65rem + 0.3vw, 0.875rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (max-width: 899.98px) {
+  .hero__art {
+    width: min(78%, 340px);
+    order: 2;
+  }
+  .hero__text {
+    order: 1;
+  }
+}
+
+/* ───────────── Inner-page hero ───────────── */
+.page-hero {
+  background-color: var(--chuna);
+  padding-block: clamp(28px, 5vw, 64px) clamp(32px, 5vw, 64px);
+}
+.page-hero__grid {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .page-hero__grid {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  }
+}
+.page-hero h1 {
+  color: var(--raat-neel);
+}
+.page-hero .lede {
+  font-size: var(--step-1);
+  line-height: 1.55;
+  max-width: 40em;
+  color: var(--text-muted);
+}
+.page-hero__art {
+  justify-self: center;
+  width: min(100%, 300px);
+}
+@media (max-width: 899.98px) {
+  .page-hero__art {
+    display: none;
+  }
+}
+.page-hero--indigo {
+  background-color: var(--raat-neel);
+  color: var(--chuna);
+}
+.page-hero--indigo h1 {
+  color: var(--genda);
+  text-shadow: 3px 3px 0 var(--rani);
+}
+.page-hero--indigo .lede {
+  color: var(--sand);
+}
+
+/* ───────────── Ganesh Utsav page ───────────── */
+.gu-hero__title {
+  font-size: var(--step-5);
+  line-height: 1.15;
+}
+.gu-hero__line {
+  color: var(--chuna);
+}
+.gu-hero__line-hi {
+  font-family: var(--font-quote);
+  font-size: var(--step-1);
+  color: var(--genda);
+  margin-top: -0.2em;
+}
+@media (max-width: 899.98px) {
+  .gu-hero__art {
+    display: block;
+    width: min(46%, 180px);
+    order: -1;
+  }
+}
+.feb4-card {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  min-height: 220px;
+  max-width: 320px;
+  justify-self: center;
+  width: 100%;
+}
+.feb4-card__date {
+  font-family: var(--font-display);
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+  color: var(--genda);
+}
+.feb4-card__month {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  margin: 0;
+}
+
+/* ───────────── Timeline ───────────── */
+@media (min-width: 900px) {
+  .two-col--history {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+}
+.history-intro__text {
+  margin-bottom: 24px;
+}
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+.timeline__item {
+  display: grid;
+  gap: 6px 20px;
+}
+@media (min-width: 560px) {
+  .timeline__item {
+    grid-template-columns: 7.5rem 1fr;
+  }
+}
+.timeline__item:nth-child(odd) {
+  transform: rotate(-0.4deg);
+}
+.timeline__item:nth-child(even) {
+  transform: rotate(0.4deg);
+}
+.timeline__date {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  line-height: 1.2;
+  margin: 0;
+}
+.timeline__date--pending {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.35;
+  border: 2px dashed currentColor;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+.timeline__content h3 {
+  font-size: 1.1875rem;
+}
+.timeline__content p {
+  margin-bottom: 0.6em;
+}
+
+/* ───────────── Festival feature (home) ───────────── */
+.festival-feature__head {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+@media (min-width: 900px) {
+  .festival-feature__head {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  }
+}
+.festival-feature__title {
+  font-size: var(--step-5);
+  color: var(--genda);
+  text-shadow: 4px 4px 0 var(--rani);
+  line-height: 1.15;
+}
+.festival-feature__summary {
+  font-size: var(--step-1);
+  line-height: 1.6;
+  max-width: 36em;
+  color: var(--sand);
+}
+.festival-feature__art {
+  justify-self: center;
+  width: min(100%, 360px);
+}
+@media (max-width: 899.98px) {
+  .festival-feature__art {
+    width: min(60%, 240px);
+    order: -1;
+  }
+}
+.festival-feature__claims {
+  border-color: var(--genda);
+  box-shadow: 5px 5px 0 var(--rani);
+  margin-bottom: 40px;
+}
+.festival-feature__attribution {
+  margin: 12px 0 0;
+  font-size: 0.9375rem;
+  color: var(--sand);
+}
+
+.claims {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 900px) {
+  .claims--grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.claims__item {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+.claims__dot {
+  width: 14px;
+  height: 14px;
+  margin-top: 7px;
+  border-radius: 50%;
+  background: var(--genda);
+  box-shadow: 0 0 0 3px rgba(249, 168, 37, 0.3);
+}
+.claims__text {
+  margin: 0 0 6px;
+}
+
+/* ───────────── Moments ───────────── */
+.moments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.moment {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.moment .photo-slot {
+  min-height: 0;
+}
+.moment__when {
+  justify-self: start;
+}
+.moment__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-2);
+  margin: 0;
+}
+.moment__body {
+  margin: 0;
+}
+
+/* ───────────── Temple ───────────── */
+.temple__age {
+  font-family: var(--font-quote);
+  font-size: var(--step-1);
+  line-height: 1.55;
+  color: var(--geru);
+  margin-bottom: 10px;
+}
+.temple__panel {
+  background: var(--geru);
+  border: var(--outline);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-offset);
+  padding: 18px;
+  color: var(--white);
+}
+.temple__panel .warli-band {
+  margin-top: 14px;
+  border-radius: 8px;
+}
+.temple__frame .photo-slot {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--white);
+}
+.temple__citation {
+  font-size: 0.9375rem;
+}
+
+/* ───────────── Profiles ───────────── */
+.profile {
+  display: grid;
+  gap: 28px;
+  align-items: start;
+  padding: clamp(20px, 4vw, 44px);
+}
+@media (min-width: 900px) {
+  .profile {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+  }
+  .profile--reverse {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.8fr);
+  }
+  .profile--reverse .profile__portrait {
+    order: 2;
+  }
+}
+.arch {
+  position: relative;
+  border-radius: 999px 999px 18px 18px;
+  padding: 12px;
+  border: var(--outline);
+  box-shadow: var(--shadow-offset);
+  max-width: 360px;
+  width: 100%;
+  justify-self: center;
+}
+.arch--rani {
+  background: var(--rani);
+  color: var(--white);
+  outline: 8px solid var(--genda);
+  outline-offset: -2px;
+}
+.arch--mor {
+  background: var(--raat-neel);
+  color: var(--white);
+  outline: 8px solid var(--mor);
+  outline-offset: -2px;
+}
+.arch .photo-slot {
+  aspect-ratio: 3 / 4;
+  border-radius: 999px 999px 12px 12px;
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  background: transparent;
+}
+.arch img {
+  border-radius: 999px 999px 12px 12px;
+}
+.profile__name {
+  font-size: var(--step-4);
+  color: var(--raat-neel);
+  margin-bottom: 0.1em;
+}
+.profile__sub {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  color: var(--mor);
+}
+.profile__works h4,
+.profile__milestones-title {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+.fact-chips {
+  list-style: none;
+  margin: 16px 0 12px;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+}
+.fact-chip {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow-offset-sm);
+}
+.fact-chip__label {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+.fact-chip__value {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.people-stack {
+  display: grid;
+  gap: clamp(36px, 6vw, 64px);
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag-list li {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--kajal);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.contributors__group + .contributors__group {
+  margin-top: 32px;
+}
+.contributor-card__meta {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* People preview (home) — three balanced cards */
+.legacy-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.legacy-card {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.legacy-card h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-2);
+  margin: 0;
+}
+.legacy-card__years {
+  font-weight: 700;
+  margin: 0;
+}
+.legacy-card__icon {
+  width: 72px;
+  height: 72px;
+}
+
+/* ───────────── IFYE ───────────── */
+.ifye .section-head h2 {
+  color: var(--genda);
+}
+.ifye__text p {
+  color: var(--sand);
+}
+.ifye__motto {
+  margin: 24px 0 16px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--genda);
+  background: rgba(255, 246, 232, 0.06);
+  border-radius: 0 12px 12px 0;
+}
+.ifye__motto blockquote {
+  margin: 0;
+  font-family: var(--font-quote);
+  font-size: var(--step-2);
+  line-height: 1.35;
+  color: var(--chuna);
+}
+.ifye__motto figcaption {
+  margin-top: 8px;
+  font-size: 0.9375rem;
+  color: var(--sand);
+}
+.ifye__feature {
+  color: var(--kajal);
+  display: grid;
+  gap: 8px;
+  align-content: start;
+  box-shadow: 5px 5px 0 var(--genda);
+}
+.ifye__feature .pill {
+  justify-self: start;
+}
+.ifye__name {
+  font-size: var(--step-3);
+  color: var(--raat-neel);
+  margin: 4px 0 0;
+}
+.ifye__home {
+  font-weight: 700;
+  color: var(--mor);
+  margin: 0;
+}
+.ifye__feature a:not(.btn) {
+  color: var(--rani);
+}
+.bio-list {
+  margin: 0 0 12px;
+  padding-left: 1.2em;
+}
+.bio-list li {
+  margin-bottom: 8px;
+}
+.ifye__archive {
+  margin-top: clamp(40px, 6vw, 64px);
+}
+.ifye__archive-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-2);
+  color: var(--genda);
+}
+.ifye__archive-note {
+  color: var(--sand);
+}
+.ifye .archive-thumb {
+  color: var(--kajal);
+}
+
+/* ───────────── Artists ───────────── */
+.artist-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.artist-card {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.artist-card__media {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-soft);
+  overflow: hidden;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.22) 2px, transparent 2.5px);
+  background-size: 16px 16px;
+}
+.artist-card__media--rani {
+  background-color: var(--rani);
+}
+.artist-card__media--indigo {
+  background-color: var(--raat-neel);
+}
+.artist-card__media--mor {
+  background-color: var(--mor);
+}
+.artist-card__media--genda {
+  background-color: var(--genda);
+}
+.artist-card__initials {
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--chuna);
+  border: var(--outline);
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--raat-neel);
+}
+.artist-card__name {
+  font-size: 1.25rem;
+  margin: 4px 0 0;
+}
+.artist-card__aka {
+  margin: 0;
+  font-weight: 600;
+  color: var(--mor);
+}
+.artist-card__account {
+  font-family: var(--font-quote);
+  background: var(--sand);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 4px 0;
+}
+.artists-note {
+  max-width: 60em;
+}
+
+/* ───────────── Produce ───────────── */
+.produce-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.produce-card {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  padding: 16px 16px 20px;
+}
+.produce-card:nth-child(3n + 1) {
+  transform: rotate(-0.6deg);
+}
+.produce-card:nth-child(3n + 2) {
+  transform: rotate(0.5deg);
+}
+.produce-card__media {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-soft);
+  background: rgba(255, 255, 255, 0.16);
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.card--genda .produce-card__media {
+  background: rgba(255, 255, 255, 0.35);
+}
+@media (max-width: 639.98px) {
+  .produce-card__media {
+    aspect-ratio: 16 / 7;
+  }
+  .artist-card__media {
+    aspect-ratio: 16 / 7;
+  }
+}
+.produce-card__motif {
+  width: 72px;
+  height: 72px;
+  opacity: 0.9;
+}
+.produce-card__tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.produce-card__name {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-2);
+  margin: 0;
+  line-height: 1.3;
+}
+.produce-card__en {
+  font-size: 0.75em;
+}
+.produce-card__en-sub {
+  font-weight: 700;
+  margin: 0;
+}
+.produce-card__season,
+.produce-card__desc,
+.produce-card__producer,
+.produce-card__status {
+  margin: 0;
+  font-size: 0.9375rem;
+  position: relative;
+  z-index: 1;
+}
+.produce-card__season {
+  font-weight: 700;
+}
+.produce-card__status {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.produce-card .btn {
+  position: relative;
+  z-index: 1;
+  justify-self: start;
+}
+.produce-filter[data-filter="clay"] .produce-card:not([data-category="clay"]),
+.produce-filter[data-filter="orchards"] .produce-card:not([data-category="orchards"]),
+.produce-filter[data-filter="gardens"] .produce-card:not([data-category="gardens"]),
+.produce-filter[data-filter="fields"] .produce-card:not([data-category="fields"]) {
+  display: none;
+}
+.produce-filter[data-filter]:not([data-filter="all"]) .produce-card {
+  transform: none;
+}
+
+/* ───────────── Experiences ───────────── */
+.experience-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.experience-card {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+  overflow: hidden;
+  padding-top: 0;
+}
+.experience-card__band {
+  height: 22px;
+  margin: 0 calc(-1 * clamp(20px, 3vw, 28px)) 6px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='22'%3E%3Ccircle cx='8' cy='11' r='3.5' fill='%23FFF6E8'/%3E%3Crect x='17' y='8' width='14' height='6' rx='3' fill='%23FFF6E8'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.experience-card__band--genda {
+  background-color: var(--genda);
+}
+.experience-card__band--rani {
+  background-color: var(--rani);
+}
+.experience-card__band--mor {
+  background-color: var(--mor);
+}
+.experience-card__band--hara {
+  background-color: var(--hara);
+}
+.experience-card__band--indigo {
+  background-color: var(--raat-neel);
+}
+.experience-card__band--geru {
+  background-color: var(--geru);
+}
+.experience-card h3 {
+  margin: 0;
+}
+.experience-card p {
+  margin: 0;
+}
+.experience-card__status {
+  justify-self: start;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1.5px dashed #5d4000;
+  background: #fff3d6;
+  color: #5d4000;
+}
+.experience-card__more h4 {
+  font-size: 0.9375rem;
+  margin: 12px 0 4px;
+}
+.experience-card__more ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.experience-card__cta {
+  margin-top: 6px;
+}
+
+/* ───────────── Visit ───────────── */
+.visit-facts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.visit-fact h3 {
+  margin: 0 0 6px;
+}
+.visit-fact p {
+  margin: 0;
+}
+.visit-fact__icon {
+  font-size: 1.75rem;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.guidance-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.guidance-list li {
+  margin-bottom: 8px;
+}
+.map-embed {
+  padding: 0;
+  overflow: hidden;
+}
+.map-embed iframe {
+  display: block;
+  width: 100%;
+  height: 340px;
+  border: 0;
+}
+.map-embed--fallback {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.map-embed__sketch {
+  width: 100%;
+  height: auto;
+}
+.map-embed__labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 700;
+}
+.map-embed__km {
+  color: var(--geru);
+}
+
+.contact-form {
+  display: grid;
+  gap: 14px;
+}
+.field {
+  display: grid;
+  gap: 6px;
+}
+.field-row {
+  display: grid;
+  gap: 14px;
+}
+@media (min-width: 560px) {
+  .field-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.field label {
+  font-weight: 700;
+}
+.field input,
+.field select,
+.field textarea {
+  font: inherit;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 2px solid var(--kajal);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--kajal);
+  width: 100%;
+}
+.field textarea {
+  resize: vertical;
+}
+.field-hint {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+.form-status {
+  margin: 0;
+  font-weight: 700;
+  color: var(--mor);
+  min-height: 1.5em;
+}
+.contact-form .btn {
+  justify-self: start;
+}
+
+/* ───────────── Programme ───────────── */
+.programme {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 900px) {
+  .programme {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.programme__day h3 {
+  margin-bottom: 8px;
+}
+.programme__day ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.programme__time {
+  font-family: var(--font-display);
+  color: var(--rani);
+  margin-right: 8px;
+}
+.countdown {
+  margin: 0 0 16px;
+  background: var(--rani);
+  color: var(--white);
+  font-size: 0.9375rem;
+  transform: rotate(-1deg);
+}
+
+/* ───────────── Misc ───────────── */
+.cta-banner {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .cta-banner {
+    grid-template-columns: 1.4fr 1fr;
+  }
+}
+.cta-banner h2 {
+  color: var(--raat-neel);
+}
+.cta-banner__art {
+  justify-self: center;
+  width: min(100%, 260px);
+}
+@media (max-width: 899.98px) {
+  .cta-banner__art {
+    display: none;
+  }
+}
+
+.legal h2 {
+  font-size: var(--step-2);
+  margin-top: 1.5em;
+  color: var(--raat-neel);
+}
+.legal ul {
+  padding-left: 1.2em;
+}
+
+.chooser {
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 8px;
+  padding: 24px;
+}
+.chooser__logo {
+  width: 112px;
+  height: 112px;
+}
+.chooser__title {
+  font-size: var(--step-4);
+  color: var(--rani);
+  margin: 8px 0 0;
+}
+.on-dark-link {
+  color: var(--genda);
+}
+.ifye .archive-thumb {
+  box-shadow: 4px 4px 0 var(--genda);
+}
+.page-hero__grid > *,
+.two-col > *,
+.hero__grid > * {
+  min-width: 0;
+}
+:lang(en) h1,
+:lang(en) h2 {
+  hyphens: auto;
+}

@@ -77,22 +77,6 @@ export const parsai = {
       },
     },
     {
-      title: { hi: "सदाचार का तावीज़", en: "Sadachar Ka Taweez" },
-      year: null,
-      description: {
-        hi: "एक क्लासिक लघु व्यंग्य कि प्रशासनिक भ्रष्टाचार किस तरह नैतिकता और आदर्शों को भी अपना हथियार बनाने की कोशिश करता है।",
-        en: "A classic short satire about how administrative corruption attempts to weaponise even morality and ethics.",
-      },
-    },
-    {
-      title: { hi: "अपनी अपनी बीमारी", en: "Apni Apni Bimari" },
-      year: null,
-      description: {
-        hi: "मध्यवर्गीय दिखावे, जीवन-संघर्ष और सामाजिक हैसियत पर हास्यपूर्ण पर गहरी दृष्टि।",
-        en: "A humorous yet profound look at middle-class pretensions, survival struggles and social status.",
-      },
-    },
-    {
       title: { hi: "ठिठुरता हुआ गणतंत्र", en: "Thithurta Hua Gantantra" },
       year: null,
       description: {

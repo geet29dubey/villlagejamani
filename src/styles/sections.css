@@ -1105,31 +1105,59 @@
   padding: 0;
   margin: 8px 0 0;
   display: grid;
-  gap: 12px;
+  gap: 8px;
+  align-items: start;
+}
+@media (min-width: 640px) {
+  .works-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 .work {
-  padding: 12px 14px;
   border: 1.5px solid rgba(30, 20, 32, 0.25);
   border-left: 4px solid var(--rani);
   border-radius: 10px;
   background: var(--chuna);
 }
+.work summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  min-height: 44px;
+  padding: 8px 12px;
+}
+.work summary::-webkit-details-marker {
+  display: none;
+}
+.work summary::after {
+  content: "+";
+  margin-left: auto;
+  font-weight: 700;
+  color: var(--rani);
+}
+.work details[open] summary::after {
+  content: "–";
+}
 .work__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 1.0625rem;
+  font-size: 0.9375rem;
+  line-height: 1.35;
   color: var(--raat-neel);
 }
 .work__year {
-  display: inline-block;
-  margin-left: 6px;
   padding: 1px 8px;
   border-radius: 999px;
   background: var(--genda);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 .work__desc {
-  margin: 4px 0 0;
-  font-size: 0.9375rem;
+  margin: 0;
+  padding: 0 12px 10px;
+  font-size: 0.875rem;
+  line-height: 1.5;
 }

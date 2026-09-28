@@ -54,12 +54,16 @@ export function ParsaiProfile({ locale }: { locale: Locale }) {
             <ul className="works-list">
               {parsai.notableWorks.map((w) => (
                 <li key={w.title.en} className="work">
-                  <cite className="work__title">
-                    {w.title.hi}
-                    {locale === "en" ? <span lang="en"> · {w.title.en}</span> : null}
-                  </cite>
-                  {w.year ? <span className="work__year"> {w.year}</span> : null}
-                  <p className="work__desc">{w.description[locale]}</p>
+                  <details>
+                    <summary>
+                      <cite className="work__title">
+                        {w.title.hi}
+                        {locale === "en" ? <span lang="en"> · {w.title.en}</span> : null}
+                      </cite>
+                      {w.year ? <span className="work__year">{w.year}</span> : null}
+                    </summary>
+                    <p className="work__desc">{w.description[locale]}</p>
+                  </details>
                 </li>
               ))}
             </ul>

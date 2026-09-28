@@ -13,12 +13,9 @@ on the production domain.
 
 - [ ] **Gram Panchayat wording**: the site is described as "an independent cultural
       and community project". Do not call it "official" without written authorisation.
-- [ ] **IFYE scans**: add the three scans to `assets/archive/originals/`
-      (`ifye-ray-ropp.jpg`, `ifye-dotty-smith.jpg`, `ifye-mary-ellen-patterson.jpg`),
-      set each `imageId` in `src/content/ifye.ts`, and run `npm run images`.
-- [ ] **IFYE transcriptions**: transcribe only clearly legible text straight from each
-      scan. Mark uncertain passages `[illegible]`. Check the Ray Ropp printed lines
-      (supplied by the family) against the scan.
+- [ ] **IFYE cards**: scans added and legible text transcribed. Confirm with the family who Ray Ropp's
+      card was addressed to, the years of Dotty Smith's and Mary Ellen Patterson's visits, and whether the
+      "1967 Delegate to India" card is the front of Mary Ellen Patterson's card.
 - [ ] **Written permission from the Dubey family** to publish the five archive
       photographs and the IFYE scans (`imageRights` is currently `family-permission-granted`;
       change it to `permission-pending` if this has not been given in writing).

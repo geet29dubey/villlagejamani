@@ -37,14 +37,18 @@ export function ifyeEntries(docs: ArchiveDocument[], locale: Locale): ArchiveEnt
             heading: hi ? "छपा हुआ पाठ" : "Printed text",
             lines: doc.transcription.printed,
           },
-          {
-            heading: hi ? "हस्तलिखित संदेश" : "Handwritten message",
-            lines: doc.transcription.handwritten ?? [
-              hi
-                ? "प्रतिलेखन जारी — केवल स्पष्ट पढ़ा जा सकने वाला पाठ लिखा जाएगा; अस्पष्ट अंश [illegible] से चिह्नित होंगे।"
-                : "Transcription in progress — only clearly legible text will be transcribed; uncertain passages will be marked [illegible].",
-            ],
-          },
+          ...(doc.transcription.handwritten && doc.transcription.handwritten.length === 0
+            ? []
+            : [
+                {
+                  heading: hi ? "हस्तलिखित" : "Handwritten",
+                  lines: doc.transcription.handwritten ?? [
+                    hi
+                      ? "प्रतिलेखन जारी — केवल स्पष्ट पढ़ा जा सकने वाला पाठ लिखा जाएगा; अस्पष्ट अंश [illegible] से चिह्नित होंगे।"
+                      : "Transcription in progress — only clearly legible text will be transcribed; uncertain passages will be marked [illegible].",
+                  ],
+                },
+              ]),
         ]
       : [
           {

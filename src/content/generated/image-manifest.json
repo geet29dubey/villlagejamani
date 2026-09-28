@@ -104,6 +104,90 @@
       }
     ]
   },
+  "ifye-1967-delegate-card": {
+    "width": 1600,
+    "height": 995,
+    "original": "assets/archive/originals/ifye-1967-delegate-card.jpg",
+    "sourceMtime": 1790613569583,
+    "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAoAA4BaJYwCdAEO/x9+y8AA/vNukbmDoqkGsMRgRhn6vAAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ifye-1967-delegate-card-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ifye-1967-delegate-card-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/ifye-1967-delegate-card-1600.webp"
+      }
+    ]
+  },
+  "ifye-dotty-smith": {
+    "width": 1577,
+    "height": 952,
+    "original": "assets/archive/originals/ifye-dotty-smith.jpg",
+    "sourceMtime": 1790613569578,
+    "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAoAA4BaJYwC7AELhnZEgAD+9NPLe9gfd+7dtLQ1PycwFBk+95SQzlTAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ifye-dotty-smith-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ifye-dotty-smith-960.webp"
+      },
+      {
+        "width": 1577,
+        "src": "/images/ifye-dotty-smith-1577.webp"
+      }
+    ]
+  },
+  "ifye-mary-ellen-patterson": {
+    "width": 1600,
+    "height": 468,
+    "original": "assets/archive/originals/ifye-mary-ellen-patterson.jpg",
+    "sourceMtime": 1790613569580,
+    "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAUAA4BaJYwCdAEN1gs0AAD+85lJuTVi0sih21Z7cR+RxGGfqGAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ifye-mary-ellen-patterson-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ifye-mary-ellen-patterson-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/ifye-mary-ellen-patterson-1600.webp"
+      }
+    ]
+  },
+  "ifye-ray-ropp": {
+    "width": 1569,
+    "height": 1139,
+    "original": "assets/archive/originals/ifye-ray-ropp.jpg",
+    "sourceMtime": 1790613569575,
+    "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAwAA4BaJYwCdADWwo6AAP7hnjZnAkDwrn3bqi0KzPacK98vI9YAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ifye-ray-ropp-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ifye-ray-ropp-960.webp"
+      },
+      {
+        "width": 1569,
+        "src": "/images/ifye-ray-ropp-1569.webp"
+      }
+    ]
+  },
   "kathak-dancer-red-costume": {
     "width": 840,
     "height": 1237,

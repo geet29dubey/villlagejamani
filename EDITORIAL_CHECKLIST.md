@@ -14,7 +14,7 @@ on the production domain.
 - [ ] **Gram Panchayat wording**: the site is described as "an independent cultural
       and community project". Do not call it "official" without written authorisation.
 - [ ] **IFYE cards**: scans added and legible text transcribed. Confirm with the family who Ray Ropp's
-      card was addressed to, the years of Dotty Smith's and Mary Ellen Patterson's visits, and whether the
+      card was addressed to, Mary Ellen Patterson's visit year, who M. P. Dubey (Dotty Smith's 'guardian', 1966 letter) was, the uncertain names in that letter, and whether the
       "1967 Delegate to India" card is the front of Mary Ellen Patterson's card.
 - [ ] **Written permission from the Dubey family** to publish the five archive
       photographs and the IFYE scans (`imageRights` is currently `family-permission-granted`;

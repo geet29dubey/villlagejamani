@@ -33,10 +33,9 @@ export function ifyeEntries(docs: ArchiveDocument[], locale: Locale): ArchiveEnt
   return docs.map((doc) => {
     const transcription = doc.transcription
       ? [
-          {
-            heading: hi ? "छपा हुआ पाठ" : "Printed text",
-            lines: doc.transcription.printed,
-          },
+          ...(doc.transcription.printed.length
+            ? [{ heading: hi ? "छपा हुआ पाठ" : "Printed text", lines: doc.transcription.printed }]
+            : []),
           ...(doc.transcription.handwritten && doc.transcription.handwritten.length === 0
             ? []
             : [

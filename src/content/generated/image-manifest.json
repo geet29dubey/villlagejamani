@@ -125,6 +125,27 @@
       }
     ]
   },
+  "ifye-dotty-smith-letter-p1": {
+    "width": 1554,
+    "height": 979,
+    "original": "assets/archive/originals/ifye-dotty-smith-letter-p1.jpg",
+    "sourceMtime": 1790613802503,
+    "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQAAoAA4BaJZQAAu0dUZHgAP7v5LcuMQAf9tHYGzzrT2EOAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/ifye-dotty-smith-letter-p1-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/ifye-dotty-smith-letter-p1-960.webp"
+      },
+      {
+        "width": 1554,
+        "src": "/images/ifye-dotty-smith-letter-p1-1554.webp"
+      }
+    ]
+  },
   "ifye-dotty-smith": {
     "width": 1577,
     "height": 952,

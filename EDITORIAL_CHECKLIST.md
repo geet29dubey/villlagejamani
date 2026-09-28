@@ -37,7 +37,6 @@ on the production domain.
 | Bullock-cart journeys: which station, which years                     | `festival.ts` → `bullock-cart`                             | Family confirmation                                                      |
 | Ram–Janaki temple age (~300 years, oral history)                      | `temple.ts`                                                | Independent source: inscription, temple/land records, archaeology survey |
 | Temple architecture, photographs, family memory                       | `temple.ts`                                                | Description, photos with permission, a quoted memory                     |
-| R. S. Dubey: full name, birth and death years                         | `people.ts` → `rsDubey`                                    | Family                                                                   |
 | R. S. Dubey: three contribution milestones (title, year, impact)      | `people.ts`                                                | Family, in their own words                                               |
 | R. S. Dubey: remembrance quotation and portrait                       | `people.ts`                                                | Family, with attribution and permission                                  |
 | Parsai: notable works list                                            | `people.ts` → `notableWorks`                               | Only with verified citations                                             |

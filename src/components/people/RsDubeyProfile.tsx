@@ -1,6 +1,7 @@
 import type { Locale } from "@/i18n/config";
 import { ui } from "@/i18n/ui";
-import { rsDubey } from "@/content/people";
+import { rsDubey, rsDubeyLifespan } from "@/content/people";
+import { formatDate } from "@/lib/festival-dates";
 import { VerificationBadge, EditorialNote } from "@/components/ui/Verification";
 import { PhotoSlot } from "@/components/ui/Placeholders";
 import { ArchiveImage } from "@/components/ui/ArchiveImage";
@@ -10,10 +11,9 @@ const tones = ["card--rani", "card--indigo", "card--genda"];
 
 export function RsDubeyProfile({ locale }: { locale: Locale }) {
   const hi = locale === "hi";
-  const years =
-    rsDubey.birthYear || rsDubey.deathYear
-      ? `${rsDubey.birthYear ?? "?"}–${rsDubey.deathYear ?? ""}`
-      : null;
+  const years = rsDubeyLifespan();
+  const born = formatDate(rsDubey.birthDate, locale);
+  const died = formatDate(rsDubey.deathDate, locale);
   const hasMilestones = rsDubey.milestones.some((m) => m.title);
   return (
     <article
@@ -46,6 +46,26 @@ export function RsDubeyProfile({ locale }: { locale: Locale }) {
           {" · "}
           {years ?? <span className="pending">{ui.dateBeingDocumented[locale]}</span>}
         </p>
+        {born || died ? (
+          <dl className="profile__dates">
+            {born ? (
+              <div>
+                <dt>{hi ? "जन्म" : "Born"}</dt>
+                <dd>
+                  <time dateTime={rsDubey.birthDate!}>{born}</time>
+                </dd>
+              </div>
+            ) : null}
+            {died ? (
+              <div>
+                <dt>{hi ? "पुण्यतिथि" : "Death anniversary"}</dt>
+                <dd>
+                  <time dateTime={rsDubey.deathDate!}>{died}</time>
+                </dd>
+              </div>
+            ) : null}
+          </dl>
+        ) : null}
         <p>{rsDubey.contribution[locale]}</p>
         {rsDubey.familyWords ? <p>{rsDubey.familyWords[locale]}</p> : null}
         <p>{rsDubey.ifyeRole[locale]}</p>

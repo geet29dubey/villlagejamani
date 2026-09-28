@@ -1052,3 +1052,26 @@
 :lang(en) h2 {
   hyphens: auto;
 }
+
+.profile__dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 0 0 1em;
+}
+.profile__dates > div {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  padding: 4px 12px;
+  border: 1.5px solid var(--kajal);
+  border-radius: 999px;
+  background: var(--chuna);
+  font-size: 0.9375rem;
+}
+.profile__dates dt {
+  font-weight: 700;
+}
+.profile__dates dd {
+  margin: 0;
+}

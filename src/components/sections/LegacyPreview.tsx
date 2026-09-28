@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import { href } from "@/i18n/routes";
-import { parsai, rsDubey } from "@/content/people";
+import { parsai, rsDubey, rsDubeyLifespan } from "@/content/people";
 import { ifyeIntro } from "@/content/ifye";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ui } from "@/i18n/ui";
@@ -27,7 +27,7 @@ export function LegacyPreview({ locale }: { locale: Locale }) {
       tone: "card--sand",
       kicker: rsDubey.kicker[locale],
       title: rsDubey.name[locale],
-      years: null,
+      years: rsDubeyLifespan(),
       body: `${rsDubey.contribution[locale]} ${rsDubey.ifyeRole[locale]}`,
       link: href(locale, "people-legacy", rsDubey.id),
     },

@@ -65,8 +65,9 @@ export const rsDubey = {
   name: { hi: "श्री आर. एस. दुबे", en: "R. S. Dubey" },
   /** Full name — editable, to be supplied by the family. */
   fullName: null as Bilingual | null,
-  birthYear: null as string | null,
-  deathYear: null as string | null,
+  /** Supplied by the Dubey family (ISO yyyy-mm-dd). */
+  birthDate: "1923-09-24" as string | null,
+  deathDate: "1994-03-08" as string | null,
   contribution: {
     hi: "जमानी आर. एस. दुबे को गाँव के विकास में उनके योगदान के लिए याद करता है।",
     en: "Jamani remembers R. S. Dubey for his contribution to the development of the village.",
@@ -104,7 +105,7 @@ export const rsDubey = {
     verificationStatus: "family-archive",
     imageRights: "permission-pending",
     editorialNotes:
-      "Needed from family: full name, birth/death years, 3 contribution milestones (title, year, impact), a remembrance quote, a portrait with permission.",
+      "Needed from family: full name, 3 contribution milestones (title, year, impact), a remembrance quote, a portrait with permission.",
   } satisfies SourceMeta,
 };
 
@@ -147,3 +148,11 @@ export interface Contributor extends SourceMeta {
  * grouped by category, without layout changes. Entries without consent are not shown.
  */
 export const contributors: Contributor[] = [];
+
+/** "1923–1994" style lifespan from the configured dates, or null if neither is known. */
+export function rsDubeyLifespan(): string | null {
+  const b = rsDubey.birthDate?.slice(0, 4);
+  const d = rsDubey.deathDate?.slice(0, 4);
+  if (!b && !d) return null;
+  return `${b ?? "?"}–${d ?? ""}`;
+}

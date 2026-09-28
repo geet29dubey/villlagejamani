@@ -110,18 +110,24 @@ export const artists: ArtistRecord[] = [
   {
     id: "nirmala-devi",
     name: { hi: "निर्मला देवी", en: "Nirmala Devi" },
-    artForm: null,
-    cityOrGharana: null,
+    artForm: { hi: "हिंदुस्तानी शास्त्रीय गायन", en: "Hindustani classical vocal" },
+    cityOrGharana: { hi: "पटियाला घराना", en: "Patiala gharana" },
     performanceYear: null,
     familyAccount: {
       hi: "परिवार के अनुसार, निर्मला देवी ने 1978 के बाद लगातार छह या सात वर्षों तक जमानी में प्रस्तुति दी। (तिथियाँ अभिलेखीय पुष्टि की प्रतीक्षा में)",
       en: "According to the family, Nirmala Devi performed in Jamani for six or seven consecutive years after 1978. (Date range awaiting archival confirmation.)",
     },
-    photo: null,
+    photo: {
+      id: "nirmala-devi-performance",
+      alt: {
+        hi: "निर्मला देवी सरस्वती के चित्र वाली पृष्ठभूमि के सामने हारमोनियम के साथ गाती हुईं; साथ में तबला, सारंगी और हारमोनियम संगतकार",
+        en: "Nirmala Devi singing at the harmonium before a painted backdrop of Saraswati, with tabla, sarangi and harmonium accompanists",
+      },
+    },
     ...familySource,
-    verificationStatus: "awaiting-confirmation",
+    verificationStatus: "family-archive",
     editorialNotes:
-      "Confirm identity/discipline and the post-1978 date range from programmes, letters or photographs.",
+      "Identity (Nirmala Devi, Patiala gharana vocalist) confirmed by the family with reference to Wikipedia (https://en.wikipedia.org/wiki/Nirmala_Devi). Post-1978 date range still awaiting archival confirmation.",
   },
   {
     id: "birju-maharaj-circle",

@@ -311,6 +311,27 @@
       }
     ]
   },
+  "nirmala-devi-performance": {
+    "width": 1210,
+    "height": 843,
+    "original": "assets/archive/originals/nirmala-devi-performance.jpg",
+    "sourceMtime": 1790617467108,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsAA4BaJYgCdAEMV9ojiAD+TC1+WUcRr8QVU+uGAUzpWoQr323OwnwreiY6Mr8v2ygAF2+fffbaxb4m9puhPTdc0RTUzMxn+KTBsoFVXgAA",
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/nirmala-devi-performance-480.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/nirmala-devi-performance-960.webp"
+      },
+      {
+        "width": 1210,
+        "src": "/images/nirmala-devi-performance-1210.webp"
+      }
+    ]
+  },
   "rs-dubey-with-shield": {
     "width": 1083,
     "height": 1050,

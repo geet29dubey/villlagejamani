@@ -414,4 +414,24 @@ export const gallery: GalleryPhoto[] = [
     peoplePictured: { hi: "आर. एस. दुबे", en: "R. S. Dubey" },
     editorialNotes: "What was the shield awarded for, where and when? Ask the family.",
   },
+  {
+    id: "nirmala-devi-performance",
+    imageId: "nirmala-devi-performance",
+    categories: ["classical-music", "people", "historical-archive"],
+    caption: {
+      hi: "पटियाला घराने की हिंदुस्तानी शास्त्रीय गायिका निर्मला देवी, सरस्वती के चित्र वाली पृष्ठभूमि के सामने हारमोनियम पर गाती हुईं; साथ में तबला, सारंगी और हारमोनियम संगतकार।",
+      en: "Nirmala Devi, Hindustani classical vocalist of the Patiala gharana, singing at the harmonium before a painted backdrop of Saraswati, accompanied on tabla, sarangi and harmonium.",
+    },
+    alt: {
+      hi: "पुराना रंगीन चित्र: नारंगी साड़ी में निर्मला देवी माइक्रोफ़ोन के सामने हारमोनियम बजाते हुए गा रही हैं; बाईं ओर तबला वादक और एक वृद्ध संगतकार, दाईं ओर सारंगी वादक; पीछे वीणा-वादिनी सरस्वती और ताड़ के पेड़ों वाला चित्रित पर्दा; आगे श्रोताओं के सिर।",
+      en: "Faded colour photograph: Nirmala Devi in an orange sari sings at a microphone while playing the harmonium; a tabla player and an older accompanist to the left, a sarangi player to the right; behind them a painted backdrop of Saraswati with the veena between palm trees; listeners' heads in the foreground.",
+    },
+    ...archiveSource,
+    peoplePictured: {
+      hi: "निर्मला देवी (बीच में); संगतकारों की पहचान जारी",
+      en: "Nirmala Devi (centre); accompanists being identified",
+    },
+    editorialNotes:
+      "Identified by the family; reference: https://en.wikipedia.org/wiki/Nirmala_Devi. The Saraswati backdrop matches other archive photos — confirm this is the Jamani festival stage and the year.",
+  },
 ];

@@ -62,14 +62,25 @@ export const artists: ArtistRecord[] = [
   {
     id: "sitara-devi",
     name: { hi: "सितारा देवी", en: "Sitara Devi" },
+    knownAs: {
+      hi: "नृत्य सम्राज्ञी — “कथक की महारानी”",
+      en: "Nritya Samrajni — the “Queen of Kathak”",
+    },
     artForm: { hi: "कथक", en: "Kathak" },
     cityOrGharana: null,
     performanceYear: null,
     familyAccount: null,
-    photo: null,
+    photo: {
+      id: "kathak-dancer-red-costume",
+      alt: {
+        hi: "लाल-सुनहरे चौखानेदार परिधान में सितारा देवी माइक्रोफ़ोन के सामने कथक मुद्रा में",
+        en: "Sitara Devi in a red and gold checked costume holding a Kathak pose before a microphone",
+      },
+    },
     ...familySource,
-    verificationStatus: "oral-history",
-    editorialNotes: "Performance year needed.",
+    verificationStatus: "family-archive",
+    editorialNotes:
+      "Sitara Devi (1920–2014), Kathak dancer, singer and actress; Sangeet Natak Akademi Award (1969), Padma Shri (1973), Kalidas Samman (1995); performed at the Royal Albert Hall (1967) and Carnegie Hall (1976). Identified in two archive photos by the family; reference: https://en.wikipedia.org/wiki/Sitara_Devi. Performance year in Jamani needed.",
   },
   {
     id: "nandita-puri",

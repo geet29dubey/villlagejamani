@@ -163,34 +163,39 @@ export const gallery: GalleryPhoto[] = [
   {
     id: "kathak-dancer-red-costume",
     imageId: "kathak-dancer-red-costume",
-    categories: ["kathak", "historical-archive"],
+    categories: ["kathak", "people", "historical-archive"],
     caption: {
-      hi: "लाल चौखानेदार परिधान में कथक नृत्यांगना, माइक्रोफ़ोन के सामने; पीछे बैठे श्रोता और ऊपर चित्रों की पंक्ति।",
-      en: "A Kathak dancer in a red checked costume before a microphone, with seated listeners behind and a row of framed pictures above.",
+      hi: "“कथक की महारानी” कहलाने वाली प्रसिद्ध कथक नृत्यांगना सितारा देवी, लाल चौखानेदार परिधान में माइक्रोफ़ोन के सामने; पीछे बैठे श्रोता और ऊपर चित्रों की पंक्ति।",
+      en: "Sitara Devi, the celebrated Kathak dancer known as the “Queen of Kathak”, in a red checked costume before a microphone, with seated listeners behind and a row of framed pictures above.",
     },
     alt: {
-      hi: "पुराना रंगीन चित्र: लाल-सुनहरे चौखानेदार परिधान में नृत्यांगना कथक मुद्रा में; सामने माइक्रोफ़ोन, अग्रभूमि में दर्शक, पीछे मेहराबदार आला और दीवार पर चित्र।",
-      en: "Faded colour photograph: a dancer in a red and gold checked costume holds a Kathak pose; a microphone in front, spectators in the foreground, an arched niche and framed pictures on the wall behind.",
+      hi: "पुराना रंगीन चित्र: लाल-सुनहरे चौखानेदार परिधान में सितारा देवी कथक मुद्रा में; सामने माइक्रोफ़ोन, अग्रभूमि में दर्शक, पीछे मेहराबदार आला और दीवार पर चित्र।",
+      en: "Faded colour photograph: Sitara Devi in a red and gold checked costume holds a Kathak pose; a microphone in front, spectators in the foreground, an arched niche and framed pictures on the wall behind.",
     },
     ...archiveSource,
+    peoplePictured: { hi: "सितारा देवी", en: "Sitara Devi" },
     editorialNotes:
-      "Identify the dancer and year. The wall niche and row of framed pictures resemble other archive photos — confirm the venue before stating it.",
+      "Dancer identified by the family as Sitara Devi (1920–2014); reference: https://en.wikipedia.org/wiki/Sitara_Devi. Year still needed. The wall niche and row of framed pictures resemble other archive photos — confirm the venue before stating it.",
   },
   {
     id: "kathak-dancer-with-musicians",
     imageId: "kathak-dancer-with-musicians",
-    categories: ["kathak", "classical-music", "historical-archive"],
+    categories: ["kathak", "classical-music", "people", "historical-archive"],
     caption: {
-      hi: "संगतकारों के साथ बैठी कथक नृत्यांगना — पखावज, हारमोनियम और तबला; पीछे सरस्वती के चित्र के सामने भरी हुई सभा।",
-      en: "A Kathak dancer seated with her accompanists — pakhawaj, harmonium and tabla — before a packed audience and a painting of Saraswati.",
+      hi: "कथक नृत्यांगना सितारा देवी अपने संगतकारों के साथ बैठी हुईं — पखावज, हारमोनियम और तबला; पीछे सरस्वती के चित्र के सामने भरी हुई सभा।",
+      en: "Kathak dancer Sitara Devi seated with her accompanists — pakhawaj, harmonium and tabla — before a packed audience and a painting of Saraswati.",
     },
     alt: {
-      hi: "पुराना रंगीन चित्र: लाल परिधान में नृत्यांगना मंच पर बैठी है; बाईं ओर पखावज वादक, बीच में हारमोनियम, दाईं ओर तबला वादक; पीछे बच्चों और बड़ों की भीड़ और सरस्वती का चित्र।",
-      en: "Faded colour photograph: a dancer in red sits on stage; a pakhawaj player to the left, a harmonium at the centre, a tabla player to the right; behind them a crowd of children and adults and a painting of Saraswati.",
+      hi: "पुराना रंगीन चित्र: लाल परिधान में सितारा देवी मंच पर बैठी हैं; बाईं ओर पखावज वादक, बीच में हारमोनियम, दाईं ओर तबला वादक; पीछे बच्चों और बड़ों की भीड़ और सरस्वती का चित्र।",
+      en: "Faded colour photograph: Sitara Devi, in red, sits on stage; a pakhawaj player to the left, a harmonium at the centre, a tabla player to the right; behind them a crowd of children and adults and a painting of Saraswati.",
     },
     ...archiveSource,
+    peoplePictured: {
+      hi: "सितारा देवी; संगतकारों की पहचान जारी",
+      en: "Sitara Devi; accompanists being identified",
+    },
     editorialNotes:
-      "Identify dancer, musicians and year. Saraswati backdrop resembles 'stage-saraswati-backdrop' — confirm if this is the same stage in Jamani.",
+      "Dancer identified by the family as Sitara Devi; reference: https://en.wikipedia.org/wiki/Sitara_Devi. Identify musicians and year. Saraswati backdrop resembles 'stage-saraswati-backdrop' — confirm if this is the same stage in Jamani.",
   },
   {
     id: "kathak-performer-microphone",
